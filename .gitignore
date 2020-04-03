@@ -68,7 +68,6 @@ lib/
 debug/
 bin/
 dist/
-bundles/
 
 # editor specific
 .IDEA/
