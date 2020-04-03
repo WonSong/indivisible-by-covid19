@@ -49,30 +49,38 @@ export function useMap(id: string): Microsoft.Maps.Map | undefined {
         const element = document.getElementById(id);
         if (!element) return;
 
-        const usBounds = Microsoft.Maps.LocationRect.fromLocations(
-            new Microsoft.Maps.Location(25.146013259887695, -139.79075622558594),
-            new Microsoft.Maps.Location(49.384357452392578, -66.97039794921875)
-        );
+        const interval = setInterval(() => {
+            if (!Microsoft.Maps) return;
 
-        map.current = new Microsoft.Maps.Map(element, {
-            mapTypeId: Microsoft.Maps.MapTypeId.grayscale,
-            supportedMapTypes: [],
-            zoom: window.innerWidth > 1200 ? 5 : 3,
-            showMapTypeSelector: false,
-            showZoomButtons: false,
-            maxBounds: usBounds,
-            disableScrollWheelZoom: true,
-            showLocateMeButton: false,
-        });
+            const usBounds = Microsoft.Maps.LocationRect.fromLocations(
+                new Microsoft.Maps.Location(25.146013259887695, -139.79075622558594),
+                new Microsoft.Maps.Location(49.384357452392578, -66.97039794921875)
+            );
 
-        Microsoft.Maps.loadModule('Microsoft.Maps.Clustering', () => {
-            fetchData()
-                .then(createPins)
-                .then((pins) => {
-                    map.current.entities.push(pins);
-                });
-        });
-    }, [id]);
+            map.current = new Microsoft.Maps.Map(element, {
+                mapTypeId: Microsoft.Maps.MapTypeId.grayscale,
+                supportedMapTypes: [],
+                zoom: window.innerWidth > 1200 ? 5 : 3,
+                showMapTypeSelector: false,
+                showZoomButtons: false,
+                maxBounds: usBounds,
+                disableScrollWheelZoom: true,
+                showLocateMeButton: false,
+                disableZooming: true,
+                disablePanning: true,
+            });
+
+            Microsoft.Maps.loadModule('Microsoft.Maps.Clustering', () => {
+                fetchData()
+                    .then(createPins)
+                    .then((pins) => {
+                        map.current.entities.push(pins);
+                    });
+            });
+
+            clearInterval(interval);
+        }, 100);
+    }, [id, Microsoft.Maps]);
 
     return map.current;
 }

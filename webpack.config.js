@@ -5,10 +5,10 @@ module.exports = {
     mode: 'development',
     devtool: 'source-map',
     entry: {
-        'app': './src/App.tsx'
+        app: './src/App.tsx',
     },
     output: {
-        path: path.join(__dirname, 'public', 'bundles')
+        path: path.join(__dirname, 'docs', 'bundles'),
     },
     module: {
         rules: [
@@ -17,20 +17,20 @@ module.exports = {
                 loader: 'ts-loader',
                 exclude: /node_modules/,
                 options: {
-                    transpileOnly: true
-                }
-            }
-        ]
+                    transpileOnly: true,
+                },
+            },
+        ],
     },
     resolve: {
         extensions: ['.ts', '.tsx', '.js'],
-        modules: [path.resolve(__dirname, 'node_modules'), 'node_modules']
+        modules: [path.resolve(__dirname, 'node_modules'), 'node_modules'],
     },
     devServer: {
-        contentBase: path.join(__dirname, 'public'),
+        contentBase: path.join(__dirname, 'docs'),
         compress: true,
         port: 9000,
         historyApiFallback: true,
-        writeToDisk: true
-    }
-}
+        writeToDisk: true,
+    },
+};

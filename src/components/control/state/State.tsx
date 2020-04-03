@@ -46,6 +46,10 @@ export function State(): React.ReactElement | null {
         };
     }, [state, data]);
 
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <>
             <Styled.Back to="/">Back to US</Styled.Back>
