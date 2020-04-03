@@ -1,0 +1,304 @@
+{
+    "California": {
+        "Dale City": {
+            "coordinate": [37.686389, -122.468333],
+            "incidents": [
+                {
+                    "date": "03/16/2020",
+                    "title": "An Asian man coughed while shopping at Target and was verbally harassed by other shoppers.",
+                    "source": "NextShark",
+                    "link": "https://nextshark.com/target-daly-city-asian-man-stands-ground-coronavirus/"
+                }
+            ]
+        },
+        "Los Angenles": {
+            "coordinate": [34.05, -118.25],
+            "incidents": [
+                {
+                    "date": "03/20/2020",
+                    "title": "CNN journalist Kyung Lah was preparing for a broadcast when a man approached her and used a racial slur. ",
+                    "source": "CNN",
+                    "link": "https://twitter.com/KyungLahCNN/status/1241105735024402432?s=20"
+                },
+                {
+                    "date": "03/15/2020",
+                    "title": "A Filipino-American woman was harassed by a woman on the street who said, \"Please don’t give me the virus.\"",
+                    "source": "Twitter",
+                    "link": "https://twitter.com/paolamardo/status/1239251432701747200?s=20"
+                }
+            ]
+        },
+        "San Francisco": {
+            "coordinate": [37.7775, -122.416389],
+            "incidents": [
+                {
+                    "date": "03/24/2020",
+                    "title": "A man yelled at a Filipino-American man, using an anti-Asian derogatory term.",
+                    "source": "Twitter",
+                    "link": "https://twitter.com/TheRNKyle/status/1242598596836339712?s=20"
+                }
+            ]
+        }
+    },
+    "Colorado": {
+        "Louisville": {
+            "coordinate": [39.975833, -105.143889],
+            "incidents": [
+                {
+                    "date": "03/15/2020",
+                    "title": "Union Jack Liquor changed the message on their marquee to read \"Firestone $14.88 Thanks China.\" \"14/88\" combines two popular white supremacist numeric hate symbols.",
+                    "source": "Colorado Hometown Weekly",
+                    "link": "https://www.coloradohometownweekly.com/2020/03/19/louisville-liquor-store-under-fire-for-thanks-china-sign-during-coronavirus-outbreak/"
+                }
+            ]
+        }
+    },
+    "Florida": {
+        "Davie": {
+            "coordinate": [26.081389, -80.280278],
+            "incidents": [
+                {
+                    "date": "03/15/2020",
+                    "title": "An Asian woman who works as a musician received harassing and racist text messages saying that she would not be hired anymore until she surrenders her \"Chinese passport and renounce your Chinese citizenship.\"",
+                    "source": "NextShark",
+                    "link": "https://nextshark.com/florida-musician-sends-racist-messages-coronavirus/"
+                }
+            ]
+        },
+        "Miami": {
+            "coordinate": [25.775278, -80.208889],
+            "incidents": [
+                {
+                    "date": "03/13/2020",
+                    "title": "Video shows an elderly Asian woman being chased with a bottle of Purell and a man yelling, \"Come here! You need some hand sanitizer. Sanitize your ass!\"",
+                    "source": "NextShark",
+                    "link": "https://nextshark.com/purell-man-chases-elderly-asian/"
+                }
+            ]
+        }
+    },
+    "Washington": {
+        "Yakima": {
+            "coordinate": [46.60207, -120.505898],
+            "incidents": [
+                {
+                    "date": "03/30/2020",
+                    "title": "An Asian buffet restaurant was vandalized with graffiti that included an ethnic slur and a message that read, \"Take the corona back.\"",
+                    "source": "YakTriNews",
+                    "link": "https://www.yaktrinews.com/take-the-corona-back-you-yakima-police-investigate-racist-graffiti-at-asian-buffet/"
+                }
+            ]
+        },
+        "Seattle": {
+            "coordinate": [47.609722, -122.333056],
+            "incidents": [
+                {
+                    "date": "03/11/2020",
+                    "title": "A student at the University of Washington told reporters that he had been harassed the previous week while commuting on the light rail to school. According to Kim, another passenger yelled at him about Chinese people bringing diseases to the United States.",
+                    "source": "Crosscut",
+                    "link": "https://crosscut.com/2020/03/coronavirus-fears-pacific-nw-lead-rise-anti-asian-racism"
+                }
+            ]
+        }
+    },
+    "Minnesota": {
+        "Woodbury": {
+            "coordinate": [44.918889, -92.936667],
+            "incidents": [
+                {
+                    "date": "03/25/2020",
+                    "title": "A woman returned home to find this flier posted on her door: \"We’re watching you fucking chinks take the [C]hinese virus back to [C]hina. We don’t want you hear [sic] infecting us with your diseases!!!!!!!\"",
+                    "source": "Facebook",
+                    "link": "https://www.facebook.com/permalink.php?story_fbid=2319205351705755&id=100008489380349"
+                }
+            ]
+        }
+    },
+    "New Mexico": {
+        "Albuquerque": {
+            "coordinate": [35.110833, -106.61],
+            "incidents": [
+                {
+                    "date": "03/17/2020",
+                    "title": "A local Asian restaurant was vandalized with a spray-painted message that read \"Trucha with the corona virus.\" \"Trucha\" is slang in Spanish for \"beware\" or \"watch out.\"",
+                    "source": "KOB 4",
+                    "link": "https://www.kob.com/coronavirus/vandals-tag-downtown-asian-restaurant-with-racist-message/5677160/"
+                },
+                {
+                    "date": "03/12/2020",
+                    "title": "At the University of New Mexico, an international student from China returned to his dorm room in Lobo Village to discover plastic covering his door and a sign that read, \"Caution, Keep Out, Quarantine.\"",
+                    "source": "KOB 4",
+                    "link": "https://www.kob.com/albuquerque-news/chinese-student-at-unm-subject-of-racist-prank/5673113/"
+                },
+                {
+                    "date": "03/12/2020",
+                    "title": "Kay Bounkeua, Executive Director of NM Asian Family Center, told local news that while walking into her office building someone on the street yelled at her to \"go back\" to where she came from.",
+                    "source": "KOB 4",
+                    "link": "https://www.kob.com/albuquerque-news/chinese-student-at-unm-subject-of-racist-prank/5673113/"
+                }
+            ]
+        }
+    },
+    "New York": {
+        "Brooklyn": {
+            "coordinate": [40.624722, -73.952222],
+            "incidents": [
+                {
+                    "date": "03/25/2020",
+                    "title": "In a subway station, someone spat on an Asian man and yelled, \"You fucking Chinese, spreading the coronavirus. You people got the virus.\"",
+                    "source": "NY Daily News",
+                    "link": "https://www.nydailynews.com/coronavirus/ny-coronavirus-hate-crime-brooklyn-subway-spit-20200325-h4w4nzb74fbadpx6li4f7xdoc4-story.html"
+                },
+                {
+                    "date": "03/19/2020",
+                    "title": "Oswald Jones, 60, targeted a 26-year-old Asian woman, allegedly yelling \"Go back to China\" and \"You are dirty, get your temperature checked,\" before attempting to punch her and steal her cellphone.",
+                    "source": "NY Daily News",
+                    "link": "https://www.nydailynews.com/coronavirus/ny-coronavirus-cellphone-robbery-hate-crime-brooklyn-subway-20200322-ufznc24nybcencdtja2ycbsx2i-story.html"
+                }
+            ]
+        },
+        "Bronx": {
+            "coordinate": [40.844784, -73.86483],
+            "incidents": [
+                {
+                    "date": "03/29/2020",
+                    "title": "Three teenage girls harassed and used an umbrella to attack an Asian woman, saying, “You caused coronavirus, bitch.",
+                    "source": "New York Post",
+                    "link": "https://nypost.com/2020/03/29/hate-spewing-teens-yell-you-caused-coronavirus-b-h-at-asian-woman/"
+                }
+            ]
+        },
+        "Queens": {
+            "coordinate": [40.75, -73.866667],
+            "incidents": [
+                {
+                    "date": "03/12/2020",
+                    "title": "Police arrested Raoul Ramos and charged him with aggravated harassment as a hate crime after he allegedly harassed and pushed a 47-year-old Asian man who was walking with his 10-year-old son in the Forest Hills neighborhood. Ramos approached the pair and started screaming, \"Where the [expletive] is your mask?\" He also referred to them as \"You fucking Chinese.\"",
+                    "source": "New York Post",
+                    "link": "https://nypost.com/2020/03/14/cops-bust-suspect-in-coronavirus-related-hate-crime-on-asian-man/"
+                }
+            ]
+        },
+        "New York": {
+            "coordinate": [40.712776, -74.005974],
+            "incidents": [
+                {
+                    "date": "03/28/2020",
+                    "title": "An Asian woman walking her dogs was verbally harassed by two people who called her \"the virus.\"",
+                    "source": "NextShark",
+                    "link": "https://nextshark.com/youre-the-virus-couple-allegedly-threaten-to-kick-fashion-designer-and-her-dogs-in-nyc/",
+                    "image": "https://cdn.statically.io/img/nextshark.com/wp-content/uploads/2020/03/NYC.png?quality=100"
+                },
+                {
+                    "date": "03/17/2020",
+                    "title": "Jiayang Fan, a staff writer at The New Yorker magazine, reported being verbally harassed outside her apartment building by a passerby who repeatedly yelled \"Fucking Chinese\" at her, and called her a \"Chinese bitch.\"",
+                    "source": "Twitter",
+                    "link": "https://twitter.com/JiayangFan/status/1240111033550766080",
+                    "image": "https://pbs.twimg.com/profile_images/827006824989720576/d9RCphxS_400x400.jpg"
+                },
+                {
+                    "date": "03/16/2020",
+                    "title": "An Asian woman was physically assaulted by a woman who accused her of spreading the coronavirus. The alleged perpetrator was arrested and charged with a hate crime. ",
+                    "source": "New York Post",
+                    "link": "https://nypost.com/2020/03/17/asian-woman-assaulted-in-manhattan-blamed-for-coronavirus-cops/",
+                    "image": "https://thenypost.files.wordpress.com/2020/03/nypd-assault-stock-01.jpg?quality=90&strip=all&w=1236&h=820&crop=1"
+                },
+                {
+                    "date": "03/15/2020",
+                    "title": "A man approached an Asian woman on the subway and said, \"You're Chinese, why did you bring Corona to America?\"",
+                    "source": "Facebook",
+                    "link": "https://www.facebook.com/insp1reme/videos/10121822316330034/"
+                },
+                {
+                    "date": "03/12/2020",
+                    "title": "An Asian man was in a restroom at Penn Station when he was verbally harassed by a man who called him a \"Chinese fuck\" and said, \"I hope you die by the coronavirus.\" The perpetrator also spat on the victim.",
+                    "source": "Patch",
+                    "link": "https://patch.com/new-york/new-york-city/die-coronavirus-says-spitting-penn-station-assailant",
+                    "image": "https://patch.com/img/cdn20/users/22926829/20200312/041940/styles/patch_image/public/newyork-tl-0177___12161432592.jpg?width=725"
+                }
+            ]
+        },
+        "Vestal": {
+            "coordinate": [42.084444, -76.053333],
+            "incidents": [
+                {
+                    "date": "03/16/2020",
+                    "title": "A student at Binghamton University discovered that someone had submitted a racist response to a public Google form she had posted for an event. The submission included anti-Asian terms and referred to the coronavirus.",
+                    "source": "Pipe Dream",
+                    "link": "https://www.bupipedream.com/news/115467/as-covid-19-spreads-asian-students-at-bu-see-racism/"
+                }
+            ]
+        }
+    },
+    "Illinois": {
+        "Evanston": {
+            "coordinate": [42.052158, -87.687866],
+            "incidents": [
+                {
+                    "date": "03/28/2020",
+                    "title": "\"Chinese virus\" was found spray-painted on a jetty on the Northwestern University campus.",
+                    "source": "ADL",
+                    "link": "https://www.adl.org/blog/reports-of-anti-asian-assaults-harassment-and-hate-crimes-rise-as-coronavirus-spreads"
+                },
+                {
+                    "date": "03/27/2020",
+                    "title": "Someone spray-painted the words \"Make China Pay\" inside a bus shelter.",
+                    "source": "ADL",
+                    "link": "https://www.adl.org/blog/reports-of-anti-asian-assaults-harassment-and-hate-crimes-rise-as-coronavirus-spreads"
+                }
+            ]
+        }
+    },
+    "Indiana": {
+        "South Bend": {
+            "coordinate": [41.676389, -86.250278],
+            "incidents": [
+                {
+                    "date": "03/25/2020",
+                    "title": "A student at the University of Notre Dame posted racist, anti-Asian, anti-Chinese comments on their Facebook page. The student also wrote \"Go home\" on the Facebook page of an international student from China.",
+                    "source": "The Observer",
+                    "link": "https://ndsmcobserver.com/2020/03/nd-postdoctoral-student-removed-from-program-after-posting-racist-comments/"
+                }
+            ]
+        }
+    },
+    "Texas": {
+        "Midland": {
+            "coordinate": [32, -102.1],
+            "incidents": [
+                {
+                    "date": "03/14/2020",
+                    "title": "A Burmese man and his two children, ages six and two, were attacked and stabbed at a Sam’s Club by a 19-year-old man. The alleged assailant admitted to targeting the family because he believed the family was Chinese and infecting people with coronavirus. The assailant was charged with three counts of attempted capital murder and one count aggravated assault.",
+                    "source": "The Daily Beast",
+                    "link": "https://www.thedailybeast.com/stabbing-of-asian-american-2-year-old-and-her-family-was-a-coronavirus-fueled-hate-crime-feds-say?ref=author"
+                }
+            ]
+        }
+    },
+    "Wisconsin": {
+        "Milwaukee": {
+            "coordinate": [43.05, -87.95],
+            "incidents": [
+                {
+                    "date": "03/12/2020",
+                    "title": "Komeng Yang recounted in a Facebook post that people on the bus avoided him and kept their distance \"because of the fear of the virus.\" After he sneezed because of pollen from a passenger’s flowers, someone allegedly said, \"Kick him off the bus.\"",
+                    "source": "Facebook",
+                    "link": "https://www.facebook.com/komeng.yang.3/posts/2814180052010408?hc_location=ufi"
+                }
+            ]
+        }
+    },
+    "Washington DC": {
+        "Washington DC": {
+            "coordinate": [38.904722, -77.016389],
+            "incidents": [
+                {
+                    "date": "03/11/2020",
+                    "title": "A Cambodian-American man was at a 7-Eleven when a fellow customer called him a \"chink\" multiple times.",
+                    "source": "NextShark",
+                    "link": "https://nextshark.com/7-eleven-washington-dc-racism/"
+                }
+            ]
+        }
+    }
+}
