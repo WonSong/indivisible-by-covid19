@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Root = styled.button`
     display: block;
-    width: calc(100% - 32px);
+    width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.05);
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     padding: 8px 12px;
@@ -13,7 +13,6 @@ export const Root = styled.button`
     cursor: pointer;
     text-decoration: none;
     background-color: #f2f2f2;
-    margin-left: 16px;
 
     &:hover {
         border: 2px solid #36a2eb;

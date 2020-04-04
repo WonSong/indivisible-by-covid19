@@ -5,7 +5,7 @@ export const Root = styled.div`
     top: 0;
     left: 0;
     width: 100%;
-    height: 50vh;
+    height: 60vh;
 
     @media (min-width: 1200px) {
         position: static;

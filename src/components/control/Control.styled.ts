@@ -9,10 +9,11 @@ export const Root = styled.div`
     padding: 16px;
     margin-left: 16px;
     margin-right: 16px;
+    margin-bottom: 32px;
     z-index: 10000;
     position: absolute;
-    top: 45vh;
-    margin-bottom: 32px;
+    top: 50vh;
+    width: calc(100% - 32px);
 
     @media (min-width: 1200px) {
         width: 320px;

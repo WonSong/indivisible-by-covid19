@@ -16,6 +16,7 @@ export const LatLng = {
     indiana: [40, -86],
     minnesota: [46, -96],
     colorado: [39, -107.5],
+    virginia: [38, -79],
 };
 
 export function Map(): React.ReactElement {
