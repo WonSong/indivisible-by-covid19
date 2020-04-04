@@ -82,7 +82,13 @@
             "coordinate": [36.75, -119.766667],
             "incidents": [
                 {
-                    "date": "03/9/2020",
+                    "date": "03/19/2020",
+                    "title": "A woman told Bunsy to “move out of my way” and then used a racial slur",
+                    "source": "Fresno Bee",
+                    "link": "https://www.fresnobee.com/news/coronavirus/article241340761.html"
+                },
+                {
+                    "date": "03/09/2020",
                     "title": "An Asian man's car was vandalized with the message \"Fuck, Asions [sic] and Coronyvirus [sic].\"",
                     "source": "ABC 30",
                     "link": "https://abc30.com/fresno-mans-car-vandalized-with-racial-slurs-as-coronavirus-outbreak-continues-/5998945/"
@@ -286,6 +292,13 @@
             "coordinate": [40.712776, -74.005974],
             "incidents": [
                 {
+                    "date": "04/01/2020",
+                    "title": "An Instagram user threatens to shoot at every Asian he meets in Chinatown",
+                    "source": "Twitter",
+                    "link": "https://twitter.com/CeFaanKim/status/1245416385536241664",
+                    "image": "https://pbs.twimg.com/media/EUibmWFX0AEVbFl?format=jpg&name=large"
+                },
+                {
                     "date": "03/28/2020",
                     "title": "An Asian woman walking her dogs was verbally harassed by two people who called her \"the virus.\"",
                     "source": "NextShark",
@@ -444,6 +457,20 @@
             "coordinate": [43.05, -87.95],
             "incidents": [
                 {
+                    "date": "03/15/2020",
+                    "title": "Sarah’s boss said to her, \"If your people hadn’t eaten bats, then this wouldn’t have happened.\"",
+                    "source": "Milwaukee Independent",
+                    "link": "http://www.milwaukeeindependent.com/articles/already-community-infected-racial-hate-anti-asian-sentiment-hits-milwaukee-along-covid-19/",
+                    "image": "http://www.milwaukeeindependent.com/wp-content/uploads/2020/04/032920_AntiAsianMKE_01.jpg"
+                },
+                {
+                    "date": "03/15/2020",
+                    "title": "A woman budged in front of Sue and said, \"Yeah I’m talking to you. I need you to move six feet away from me. You know what I’m talking about. I don’t want you anywhere near me.\"",
+                    "source": "Milwaukee Independent",
+                    "link": "http://www.milwaukeeindependent.com/articles/already-community-infected-racial-hate-anti-asian-sentiment-hits-milwaukee-along-covid-19/",
+                    "image": "http://www.milwaukeeindependent.com/wp-content/uploads/2020/04/032920_AntiAsianMKE_02.jpg"
+                },
+                {
                     "date": "03/12/2020",
                     "title": "Komeng Yang recounted in a Facebook post that people on the bus avoided him and kept their distance \"because of the fear of the virus.\" After he sneezed because of pollen from a passenger’s flowers, someone allegedly said, \"Kick him off the bus.\"",
                     "source": "Facebook",
@@ -456,6 +483,11 @@
         "Washington DC": {
             "coordinate": [38.904722, -77.016389],
             "incidents": [
+                {
+                    "date": "03/24/2020",
+                    "title": "A woman tells yells \"Too fucking close\" to a Korean women",
+                    "source": "Reported here"
+                },
                 {
                     "date": "03/11/2020",
                     "title": "A Cambodian-American man was at a 7-Eleven when a fellow customer called him a \"chink\" multiple times.",
@@ -509,11 +541,31 @@
             "coordinate": [40.714, -74.071],
             "incidents": [
                 {
+                    "date": "03/26/2020",
+                    "title": "A stranger told Son \"all you dirty Chinese people have to wear a mask.\"",
+                    "source": "NJ.com",
+                    "link": "https://www.nj.com/opinion/2020/04/a-racist-slur-a-vile-gesture-im-young-and-im-not-sick-but-the-pandemic-has-affected-me-opinion.html",
+                    "image": "https://www.nj.com/resizer/w3h9oNPPdyc_Ec3381lb2nUSAtE=/1280x0/smart/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/CM6Q647ULZFGBIRSRUCLG4LZOE.png"
+                },
+                {
                     "date": "01/15/2020",
                     "title": "The NJ Patch reported that in January, a man approached an Asian woman on the street and told her to \"Go back to China\" and referred to her with an anti-Asian slur. He also spat in her direction",
                     "source": "Patch",
                     "link": "https://patch.com/new-jersey/montclair/group-hurls-racist-slurs-newark-man-montclair-police",
                     "image": "https://patch.com/img/cdn20/users/22844250/20200317/050203/styles/patch_image/public/general-policecarlights4-patch___17165913339.jpg?width=725"
+                }
+            ]
+        }
+    },
+    "Nevada": {
+        "Las Vegas": {
+            "coordinate": [36.175, -115.136389],
+            "incidents": [
+                {
+                    "date": "03/31/2020",
+                    "title": "\"I was shopping at the Smith store for necessities, and as soon as I walk in an aisle a whole family covered their nose all of a sudden,\" said Vinuya.",
+                    "source": "8newsnow",
+                    "link": "https://www.8newsnow.com/news/local-news/local-asian-americans-experience-discrimination-hate-crimes-some-wrongly-blame-the-community-for-coronavirus/"
                 }
             ]
         }

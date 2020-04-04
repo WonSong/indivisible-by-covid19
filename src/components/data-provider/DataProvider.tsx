@@ -41,6 +41,8 @@ function prepData(data: IData): IDataContext {
             newCount: 0,
         });
 
+        stateCitiesData.sort((a, b) => (a.count > b.count ? -1 : 1));
+
         citiesIncidentsByState[slugify(stateName)] = {
             name: stateName,
             count: stateIncidentCount,

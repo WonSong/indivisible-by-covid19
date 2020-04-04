@@ -27,7 +27,7 @@ function createPins(data: IData): Promise<Microsoft.Maps.Pushpin[]> {
         }
 
         const pins: Microsoft.Maps.Pushpin[] = coordinates.map(({ coordinate, incidentCount }) => {
-            const radius = incidentCount * 5;
+            const radius = incidentCount * (window.innerWidth < 1200 ? 5 : 10);
             const minOpacity = 0.3;
             const opacity = 0.7 - incidentCount / 10;
 
