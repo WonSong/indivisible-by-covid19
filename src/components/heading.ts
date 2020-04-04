@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const Heading = styled.div`
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
-    color: #555;
+    color: #444;
     margin-bottom: 12px;
 `;
 

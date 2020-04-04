@@ -3,17 +3,16 @@ import { Link } from 'react-router-dom';
 
 export const Root = styled.div`
     background-color: white;
+    width: calc(100% - 32px);
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
     border-radius: 12px;
     padding: 16px;
     margin-left: 16px;
     margin-right: 16px;
-    margin-bottom: 32px;
     z-index: 10000;
     position: absolute;
     top: 50vh;
-    width: calc(100% - 32px);
 
     @media (min-width: 1200px) {
         width: 360px;
@@ -27,18 +26,23 @@ export const Root = styled.div`
 
 export const Brand = styled.div`
     font-size: 28px;
-    letter-spacing: 1px;
-    color: #555;
-    margin-bottom: 24px;
+    letter-spacing: 2px;
+    color: #333;
+    font-weight: 600;
 `;
 
 export const BrandSub = styled.div`
     display: inline;
+    color: rgb(153, 50, 204);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+`;
+
+export const TagLine = styled.div`
     color: #999;
-    letter-spacing: 1;
     font-size: 13px;
-    font-weight: 400;
-    letter-spacing: -0.1px;
+    letter-spacing: 14px;
 `;
 
 export const PulledDown = styled.div`
@@ -47,24 +51,6 @@ export const PulledDown = styled.div`
         bottom: 16px;
         width: calc(100% - 32px);
     }
-`;
-
-export const ReportButton = styled.a`
-    display: block;
-    text-align: center;
-    margin-top: 24px;
-    width: 100%;
-    border: 1px solid rgba(0, 0, 0, 0.05);
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-    padding: 16px 12px;
-    border-radius: 3px;
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 12px;
-    color: white;
-    cursor: pointer;
-    text-decoration: none;
-    background-color: rgb(255, 23, 72);
 `;
 
 export const SiteInfo = styled.div`

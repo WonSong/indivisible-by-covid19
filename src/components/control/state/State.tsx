@@ -7,6 +7,8 @@ import { IIncident } from '../../../models/IData';
 import { Incident } from './incident';
 import { useDarkerBackgroundOnScroll } from '../../../hooks/useDarkerBackgroundOnScroll';
 import { ICitiesIncidents } from '../../../models/IDataContext';
+import { Section } from '../../section';
+import { MainFigure } from '../main-figure';
 
 export function State(): React.ReactElement | null {
     useDarkerBackgroundOnScroll();
@@ -29,10 +31,12 @@ export function State(): React.ReactElement | null {
 
     return (
         <>
-            <Styled.Back to="/">Back to home</Styled.Back>
+            <Styled.Back to="/">Back to United States</Styled.Back>
 
-            <Heading>Hate crimes reported in {data.name}</Heading>
-            <Styled.Reported>{data.count}</Styled.Reported>
+            <Section>
+                <Heading>{data.name}</Heading>
+                <MainFigure>{data.count}</MainFigure>
+            </Section>
 
             <Heading>Incidents</Heading>
             <Styled.Incidents>

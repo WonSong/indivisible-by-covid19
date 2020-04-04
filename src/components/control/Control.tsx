@@ -3,22 +3,26 @@ import * as Styled from './Control.styled';
 import { Route } from 'react-router-dom';
 import { UnitedStates } from './united-states';
 import { State } from './state';
+import { ReportButton } from './report-button';
+import { Section } from '../section';
 
 export function Control(): React.ReactElement {
     return (
         <Styled.Root>
-            <Styled.Brand>
-                INDIVISIBLE <Styled.BrandSub>by COVID-19</Styled.BrandSub>
-            </Styled.Brand>
+            <Section>
+                <Styled.Brand>
+                    INDIVISIBLE <Styled.BrandSub>by COVID-19</Styled.BrandSub>
+                </Styled.Brand>
+                <Styled.TagLine>#STOPAAPIHATE</Styled.TagLine>
+
+                <ReportButton />
+            </Section>
 
             <Route path="/" exact component={UnitedStates} />
             <Route path="/about" exact component={UnitedStates} />
             <Route path="/states/:state" exact component={State} />
 
             <Styled.PulledDown>
-                <Styled.ReportButton href="http://www.asianpacificpolicyandplanningcouncil.org/stop-aapi-hate/">
-                    Report hate crime
-                </Styled.ReportButton>
                 <Styled.SiteInfo>
                     <Styled.InlineLink to="/about">About</Styled.InlineLink> |{' '}
                     <Styled.InlineExternalLink
