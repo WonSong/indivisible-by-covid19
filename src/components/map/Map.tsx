@@ -20,6 +20,7 @@ export const LatLng = {
     pennsylvania: [41, -77.5],
     'new-jersey': [40, -74.5],
     nevada: [39, -117],
+    utah: [39, -111],
 };
 
 export function Map(): React.ReactElement {

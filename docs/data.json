@@ -130,6 +130,18 @@
                     "image": "https://s.abcnews.com/images/Politics/donald-trump-notes-chinese-virus-gty-jc-200319_hpMain_16x9_992.jpg"
                 }
             ]
+        },
+        "San Diego": {
+            "coordinate": [32.715, -117.1625],
+            "incidents": [
+                {
+                    "date": "03/23/2020",
+                    "title": "After learning a Uber driver was from Hong Kong, the passengers mercilessly harassed him with questions about the coronavirus and Hong Kong politics",
+                    "source": "ASAM news",
+                    "link": "https://asamnews.com/2020/03/23/uber-driver-faces-coronavirus-racism-demands-apology/",
+                    "image": "https://asamnews.com/wp-content/uploads/2020/03/Uber-driver-faces-coronavirus-racism.jpg"
+                }
+            ]
         }
     },
     "Colorado": {
@@ -143,6 +155,10 @@
                     "link": "https://www.coloradohometownweekly.com/2020/03/19/louisville-liquor-store-under-fire-for-thanks-china-sign-during-coronavirus-outbreak/"
                 }
             ]
+        },
+        "Denver": {
+            "coordinate": [39.739167, -104.990278],
+            "incidents": []
         }
     },
     "Florida": {
@@ -165,6 +181,17 @@
                     "title": "Video shows an elderly Asian woman being chased with a bottle of Purell and a man yelling, \"Come here! You need some hand sanitizer. Sanitize your ass!\"",
                     "source": "NextShark",
                     "link": "https://nextshark.com/purell-man-chases-elderly-asian/"
+                }
+            ]
+        },
+        "West Palm Beach": {
+            "coordinate": [26.709722, -80.064167],
+            "incidents": [
+                {
+                    "date": "03/13/2020",
+                    "title": "Classmates say \"Everyone knows Chinese people are disgusting...they'll eat any type of animal...they're dirty\"",
+                    "source": "New York Times",
+                    "link": "https://www.nytimes.com/2020/03/14/opinion/Racism-coronavirus-asians.html"
                 }
             ]
         }
@@ -211,8 +238,26 @@
                 {
                     "date": "03/25/2020",
                     "title": "A woman returned home to find this flier posted on her door: \"We’re watching you fucking chinks take the [C]hinese virus back to [C]hina. We don’t want you hear [sic] infecting us with your diseases!!!!!!!\"",
-                    "source": "Facebook",
-                    "link": "https://www.facebook.com/permalink.php?story_fbid=2319205351705755&id=100008489380349"
+                    "source": "Star Tribune",
+                    "link": "https://www.startribune.com/local-asian-americans-face-insults-hostility/569178982/?refresh=true",
+                    "image": "https://stmedia.stimg.co/1aasian032820.jpg?auto=compress&crop=faces&dpr=2&w=525"
+                }
+            ]
+        },
+        "Twin Cities": {
+            "coordinate": [44.95, -93.2],
+            "incidents": [
+                {
+                    "date": "03/25/2020",
+                    "title": "A woman plugs her nose at the sight of a Hmong American shopper at a Twin Cities mall.",
+                    "source": "MPR News",
+                    "link": "https://www.mprnews.org/story/2020/03/25/asian-americans-in-minnesota-confront-a-covid19-backlash"
+                },
+                {
+                    "date": "03/25/2020",
+                    "title": "Two delivery men refused to install a new washer in her home after accusing her teenage son of being sick.",
+                    "source": "MPR News",
+                    "link": "https://www.mprnews.org/story/2020/03/25/asian-americans-in-minnesota-confront-a-covid19-backlash"
                 }
             ]
         }
@@ -251,6 +296,13 @@
                     "title": "In a subway station, someone spat on an Asian man and yelled, \"You fucking Chinese, spreading the coronavirus. You people got the virus.\"",
                     "source": "NY Daily News",
                     "link": "https://www.nydailynews.com/coronavirus/ny-coronavirus-hate-crime-brooklyn-subway-spit-20200325-h4w4nzb74fbadpx6li4f7xdoc4-story.html"
+                },
+                {
+                    "date": "03/19/2020",
+                    "title": "A FedEx driver put in \"Signed for by C.COVID\" after handing the package to a Chinese American.",
+                    "source": "Twitter",
+                    "link": "https://twitter.com/mizCeeZee/status/1240686586305499136",
+                    "image": "https://pbs.twimg.com/media/ETfN32TXYAA5BfT?format=jpg&name=large"
                 },
                 {
                     "date": "03/19/2020",
@@ -397,6 +449,24 @@
         }
     },
     "Illinois": {
+        "Chicago": {
+            "coordinate": [41.881944, -87.627778],
+            "incidents": [
+                {
+                    "date": "03/12/2020",
+                    "title": "A man walking by yelled \"Fucking China\" and spat on Nguyen",
+                    "source": "Chicago Tribune",
+                    "link": "https://www.chicagotribune.com/news/breaking/ct-chicago-asians-coronavirus-racism-trump-chinese-virus-20200325-pmgtixfldrdabcqwvmsb6gokra-story.html?fbclid=IwAR3a_SugUPyrdAzSMxH1Uv6jd1_xsp9VTmbgS5blPxHLpSv5ZeklUv8f344",
+                    "image": "https://www.chicagotribune.com/resizer/twInYM57K--mbfipUIhZVfXEzsY=/800x544/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/ZR66JXYSX5FIBAEII2IVEBUV6U.jpg"
+                },
+                {
+                    "date": "02/29/2020",
+                    "title": "A man whispers \"Got to get our masks on\" to his friend while Tuyet Anh, 20 is sitting alone on a train",
+                    "source": "Chicago Tribune",
+                    "link": "https://www.chicagotribune.com/news/breaking/ct-chicago-asians-coronavirus-racism-trump-chinese-virus-20200325-pmgtixfldrdabcqwvmsb6gokra-story.html?fbclid=IwAR3a_SugUPyrdAzSMxH1Uv6jd1_xsp9VTmbgS5blPxHLpSv5ZeklUv8f344"
+                }
+            ]
+        },
         "Evanston": {
             "coordinate": [42.052158, -87.687866],
             "incidents": [
@@ -477,6 +547,17 @@
                     "link": "https://www.facebook.com/komeng.yang.3/posts/2814180052010408?hc_location=ufi"
                 }
             ]
+        },
+        "Madison": {
+            "coordinate": [43.066667, -89.4],
+            "incidents": [
+                {
+                    "date": "03/25/2020",
+                    "title": "A vandal wrote inflammatory messages on campus: \"It's from China\" \"Fuck the Chinese government\"",
+                    "source": "Facebook",
+                    "link": "https://www.facebook.com/uwasianam/posts/2978906008829845"
+                }
+            ]
         }
     },
     "Washington DC": {
@@ -489,10 +570,17 @@
                     "source": "Reported here"
                 },
                 {
+                    "date": "03/17/2020",
+                    "title": "A white house official calls Coronavirus \"Kung Flu\"",
+                    "source": "Twitter",
+                    "link": "https://twitter.com/CAPAction/status/1240324315603763200"
+                },
+                {
                     "date": "03/11/2020",
                     "title": "A Cambodian-American man was at a 7-Eleven when a fellow customer called him a \"chink\" multiple times.",
                     "source": "NextShark",
-                    "link": "https://nextshark.com/7-eleven-washington-dc-racism/"
+                    "link": "https://nextshark.com/7-eleven-washington-dc-racism/",
+                    "image": "https://www.cair.com/wp-content/uploads/elementor/thumbs/Screen-Shot-2020-03-18-at-1.03.02-PM-omrd827wwe6nbu66ko5ofwer73ahmzk9yjac27hep8.png"
                 }
             ]
         }
@@ -566,6 +654,36 @@
                     "title": "\"I was shopping at the Smith store for necessities, and as soon as I walk in an aisle a whole family covered their nose all of a sudden,\" said Vinuya.",
                     "source": "8newsnow",
                     "link": "https://www.8newsnow.com/news/local-news/local-asian-americans-experience-discrimination-hate-crimes-some-wrongly-blame-the-community-for-coronavirus/"
+                }
+            ]
+        }
+    },
+    "Utah": {
+        "Cedar City": {
+            "coordinate": [37.6775, -113.061944],
+            "incidents": [
+                {
+                    "date": "03/31/2020",
+                    "title": "Two Chinese students were sprayed with Lysol at a Cedar City Walmart and told to \"go home.\"",
+                    "source": "ABC 4",
+                    "link": "https://www.abc4.com/coronavirus/xenophobic-behavior-on-the-rise-towards-asian-americans-in-utah-in-relation-to-covid-19-misinformation/"
+                }
+            ]
+        },
+        "Salt Lake City": {
+            "coordinate": [40.760833, -111.891111],
+            "incidents": [
+                {
+                    "date": "03/31/2020",
+                    "title": "A Chinese family was sworn at and told to \"go back to China,\" when they were out in their own yard.",
+                    "source": "ABC 4",
+                    "link": "https://www.abc4.com/coronavirus/xenophobic-behavior-on-the-rise-towards-asian-americans-in-utah-in-relation-to-covid-19-misinformation/"
+                },
+                {
+                    "date": "03/31/2020",
+                    "title": "Chinese community member was running on one of our beautiful trails when another woman, picked up a stick, hit her with it and told her \"go back to China.\"",
+                    "source": "ABC 4",
+                    "link": "https://www.abc4.com/coronavirus/xenophobic-behavior-on-the-rise-towards-asian-americans-in-utah-in-relation-to-covid-19-misinformation/"
                 }
             ]
         }
