@@ -67,11 +67,15 @@ export function useMap(id: string): Microsoft.Maps.Map | undefined {
                 zoom: window.innerWidth > 1200 ? 5 : 3,
                 showMapTypeSelector: false,
                 showZoomButtons: false,
-                maxBounds: usBounds,
-                disableScrollWheelZoom: true,
+                center: new Microsoft.Maps.Location(
+                    window.innerWidth > 1200 ? 40 : 35,
+                    window.innerWidth > 1200 ? -105 : -95
+                ),
+                // maxBounds: usBounds,
+                // disableScrollWheelZoom: true,
                 showLocateMeButton: false,
-                disableZooming: true,
-                disablePanning: true,
+                // disableZooming: true,
+                // disablePanning: true,
             });
 
             Microsoft.Maps.loadModule('Microsoft.Maps.Clustering', () => {

@@ -4,7 +4,7 @@ import * as Styled from './Map.styled';
 import { useMap } from './useMap';
 
 export const LatLng = {
-    'new-york': [43, 74],
+    'new-york': [43, -74],
     washington: [47.5, -121.5],
     california: [37, -120],
     'new-mexico': [34, -107],
@@ -32,6 +32,10 @@ export function Map(): React.ReactElement {
 
         if (!state || !latLng) {
             map?.setView({
+                center: new Microsoft.Maps.Location(
+                    window.innerWidth > 1200 ? 40 : 35,
+                    window.innerWidth > 1200 ? -105 : -95
+                ),
                 zoom: window.innerWidth > 1200 ? 5 : 3,
             });
 
@@ -39,7 +43,10 @@ export function Map(): React.ReactElement {
         }
 
         map?.setView({
-            center: new Microsoft.Maps.Location(latLng[0], latLng[1]),
+            center: new Microsoft.Maps.Location(
+                window.innerWidth > 1200 ? latLng[0] : latLng[0] - 2,
+                window.innerWidth > 1200 ? latLng[1] - 2 : latLng[1]
+            ),
             zoom: window.innerWidth > 1200 ? 7 : 5,
         });
     }, [state]);
