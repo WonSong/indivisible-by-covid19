@@ -7,15 +7,15 @@ export const LatLng = {
     'new-york': [43, -74],
     washington: [47.5, -121.5],
     california: [37, -120],
-    'new-mexico': [34, -107],
+    'new-mexico': [34, -106],
     illinois: [40, -89],
     florida: [27.1, -81.6],
-    'washington-dc': [38.904722, -79.016389],
+    'washington-dc': [38.904722, -77.016389],
     wisconsin: [44.5, -89.5],
     texas: [31, -100],
     indiana: [40, -86],
-    minnesota: [46, -96],
-    colorado: [39, -107.5],
+    minnesota: [46, -94],
+    colorado: [39, -105.5],
     virginia: [38, -79],
     pennsylvania: [41, -77.5],
     'new-jersey': [40, -74.5],
@@ -44,10 +44,10 @@ export function Map(): React.ReactElement {
 
         map?.setView({
             center: new Microsoft.Maps.Location(
-                window.innerWidth > 1200 ? latLng[0] : latLng[0] - 2,
+                window.innerWidth > 1200 ? latLng[0] : latLng[0] - 1,
                 window.innerWidth > 1200 ? latLng[1] - 2 : latLng[1]
             ),
-            zoom: window.innerWidth > 1200 ? 7 : 5,
+            zoom: window.innerWidth > 1200 ? 7 : 6,
         });
     }, [state]);
 
