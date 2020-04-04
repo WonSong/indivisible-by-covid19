@@ -7,8 +7,16 @@ function changeBackgroundOpacity(): void {
     const root = document.getElementById('bg');
     if (!root) return;
 
+    const scrollTop = document.documentElement.scrollTop;
+    if (scrollTop === 0) {
+        root.style.display = 'none';
+
+        return;
+    }
+
+    root.style.display = 'block';
     const maxOpacity = 0.7;
-    const opacity = (document.documentElement.scrollTop / 1000) * 2;
+    const opacity = (scrollTop / 1000) * 2;
 
     root.style.backgroundColor = `rgba(0, 0, 0, ${opacity > maxOpacity ? maxOpacity : opacity})`;
 }
