@@ -12,7 +12,8 @@ export const Root = styled.div`
     margin-right: 16px;
     z-index: 10000;
     position: absolute;
-    top: 45vh;
+    top: 50vh;
+    margin-bottom: 36px;
 
     @media (min-width: 1200px) {
         width: 360px;
