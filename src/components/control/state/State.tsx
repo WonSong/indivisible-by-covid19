@@ -6,10 +6,13 @@ import { DataContext } from '../../data-provider/DataContext';
 import { IData, IIncident } from '../../../models/IData';
 import { slugify } from '../../../utils/slugify';
 import { Incident } from './incident';
+import { useDarkerBackgroundOnScroll } from '../../../hooks/useDarkerBackgroundOnScroll';
 
 export function State(): React.ReactElement | null {
     const { state } = useParams();
     const data: IData = React.useContext(DataContext);
+
+    useDarkerBackgroundOnScroll();
 
     const viewData = React.useMemo(() => {
         let name: string | null = null;
@@ -45,10 +48,6 @@ export function State(): React.ReactElement | null {
             incidentsCount,
         };
     }, [state, data]);
-
-    React.useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
 
     return (
         <>

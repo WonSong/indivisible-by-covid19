@@ -2,11 +2,10 @@ import * as React from 'react';
 import { TotalReported } from '../total-reported';
 import { States } from '../states';
 import { Heading } from '../../heading';
+import { useDarkerBackgroundOnScroll } from '../../../hooks/useDarkerBackgroundOnScroll';
 
 export function UnitedStates(): React.ReactElement {
-    React.useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
+    useDarkerBackgroundOnScroll();
 
     return (
         <>
