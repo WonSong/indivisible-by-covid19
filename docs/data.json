@@ -25,6 +25,31 @@
                     "title": "A Filipino-American woman was harassed by a woman on the street who said, \"Please don’t give me the virus.\"",
                     "source": "Twitter",
                     "link": "https://twitter.com/paolamardo/status/1239251432701747200?s=20"
+                },
+                {
+                    "date": "03/01/2020",
+                    "title": "A woman reported that a man followed her while she was jogging, and shouted that because she is Chinese, she was to blame for bringing the virus to the United States.",
+                    "source": "Los Angeles Times",
+                    "link": "https://www.latimes.com/california/story/2020-03-23/coronavirus-devastation-immigrants",
+                    "image": "https://ca-times.brightspotcdn.com/dims4/default/3377419/2147483647/strip/true/crop/2048x1271+0+0/resize/840x521!/quality/90/?url=https%3A%2F%2Fwww.trbimg.com%2Fimg-51f2cea4%2Fturbine%2Fla-me-chinatown-then-and-now-pictures-20130726-014"
+                },
+                {
+                    "date": "02/13/2020",
+                    "title": "In the San Fernando Valley, a 16-year-old student, who is of Asian descent, was physically assaulted by classmates due to coronavirus fears.",
+                    "source": "CBS-Los Angeles",
+                    "link": "https://losangeles.cbslocal.com/2020/02/13/teen-student-in-la-assaulted-as-coronavirus-fears-stoke-racial-backlash/"
+                },
+                {
+                    "date": "02/05/2020",
+                    "title": "An eighth-grade Asian-American student at Walter Reed Middle School was sent to the nurse's office after he started coughing from choking on water. After the nurse sent him back to class the other students teased him that he had coronavirus.",
+                    "source": "Fox-Los Angeles",
+                    "link": "https://www.foxla.com/news/boy-teased-about-coronavirus-says-because-hes-asian-teacher-accused-of-intolerance"
+                },
+                {
+                    "date": "02/01/2020",
+                    "title": "An Asian woman was subjected to an anti-Asian xenophobic rant about the coronavirus from another passenger while taking the Metro. The man stated that \"Every disease has ever come from China, homie. Everything comes from China because they're fucking disgusting.\"",
+                    "source": "Twitter",
+                    "link": "https://twitter.com/jiraprapasuke/status/1224929040022159361?s=20"
                 }
             ]
         },
@@ -38,11 +63,65 @@
                     "link": "https://twitter.com/TheRNKyle/status/1242598596836339712?s=20"
                 },
                 {
-                    "date": "03/9/2020",
+                    "date": "03/09/2020",
                     "title": "A woman told reporters that while walking to the gym she was harassed by a man who shouted expletives about China at her and encouraged a passing bus to \"run them over.\" The man then spat at her.",
                     "source": "New York Times",
                     "link": "https://www.nytimes.com/2020/03/23/us/coronavirus-asian-americans-attacks.html",
                     "image": "https://static01.nyt.com/images/2020/03/20/us/00VIRUS-ASIANFEAR-zhu/merlin_170758545_da314342-bdf7-4cd5-91ae-65d33c6ade80-superJumbo.jpg?quality=90&auto=webp"
+                },
+                {
+                    "date": "02/22/2020",
+                    "title": "An elderly Asian man was physically assaulted while collecting recyclables near a housing project. The incident was filmed and shared widely on social media. In the video, one person can be heard saying, \"I hate Asians.\" Dwayne Grayson was arrested on suspicion of robbery, elder abuse and committing a hate crime, as well as a probation violation for an earlier robbery.",
+                    "source": "San Francisco Chronicles",
+                    "link": "https://www.sfchronicle.com/crime/article/SF-Bayview-attack-Second-suspect-surrenders-to-15098296.php",
+                    "image": "https://s.hdnux.com/photos/01/10/73/26/19117463/5/gallery_xlarge.jpg"
+                }
+            ]
+        },
+        "Fresno": {
+            "coordinate": [36.75, -119.766667],
+            "incidents": [
+                {
+                    "date": "03/9/2020",
+                    "title": "An Asian man's car was vandalized with the message \"Fuck, Asions [sic] and Coronyvirus [sic].\"",
+                    "source": "ABC 30",
+                    "link": "https://abc30.com/fresno-mans-car-vandalized-with-racial-slurs-as-coronavirus-outbreak-continues-/5998945/"
+                }
+            ]
+        },
+        "Garden Grove": {
+            "coordinate": [36.75, -119.766667],
+            "incidents": [
+                {
+                    "date": "03/6/2020",
+                    "title": "Two students at Bolsa Grande High School filmed themselves verbally harassing and mocking Vietnamese-American classmates, yelling \"coronavirus\" at them during an International Week assembly.",
+                    "source": "OC Register",
+                    "link": "https://www.ocregister.com/2020/03/12/video-garden-grove-students-scream-coronavirus-mocks-asian-teens/",
+                    "image": "https://www.ocregister.com/wp-content/uploads/2020/03/OCR-L-BOLSAVIDEO-0312-01-1-1.jpg?w=800"
+                }
+            ]
+        },
+        "Orange County": {
+            "coordinate": [33.67, -117.78],
+            "incidents": [
+                {
+                    "date": "03/01/2020",
+                    "title": "It was reported in an op-ed that in early March, an Asian-American fourth grade student’s classmates accused him of having coronavirus.",
+                    "source": "Los Angeles Times",
+                    "link": "https://www.latimes.com/california/story/2020-03-23/coronavirus-devastation-immigrants",
+                    "image": "https://ca-times.brightspotcdn.com/dims4/default/3377419/2147483647/strip/true/crop/2048x1271+0+0/resize/840x521!/quality/90/?url=https%3A%2F%2Fwww.trbimg.com%2Fimg-51f2cea4%2Fturbine%2Fla-me-chinatown-then-and-now-pictures-20130726-014"
+                }
+            ]
+        },
+        "Pasadena": {
+            "coordinate": [34.156111, -118.131944],
+            "incidents": [
+                {
+                    "date": "02/01/2020",
+                    "title": "Chinese-American actor Tzi Ma reported that in early February a man yelled at him, \"You should be quarantined.\"",
+                    "source": "Good Morning America",
+                    "link": "https://www.goodmorningamerica.com/culture/story/mulan-star-tzi-ma-recalls-racist-attack-urges-69706094",
+                    "image": "https://s.abcnews.com/images/Politics/donald-trump-notes-chinese-virus-gty-jc-200319_hpMain_16x9_992.jpg"
                 }
             ]
         }
@@ -106,6 +185,17 @@
                     "link": "https://crosscut.com/2020/03/coronavirus-fears-pacific-nw-lead-rise-anti-asian-racism"
                 }
             ]
+        },
+        "Bellevue": {
+            "coordinate": [47.614444, -122.1925],
+            "incidents": [
+                {
+                    "date": "01/26/2020",
+                    "title": "A man’s son, whose mother is Asian, was told to \"get away\" from a food sample table at a Costco because \"he may be from China\"",
+                    "source": "Twitter",
+                    "link": "https://twitter.com/devincabanilla/status/1221562958578245633?s=20"
+                }
+            ]
         }
     },
     "Minnesota": {
@@ -161,6 +251,12 @@
                     "title": "Oswald Jones, 60, targeted a 26-year-old Asian woman, allegedly yelling \"Go back to China\" and \"You are dirty, get your temperature checked,\" before attempting to punch her and steal her cellphone.",
                     "source": "NY Daily News",
                     "link": "https://www.nydailynews.com/coronavirus/ny-coronavirus-cellphone-robbery-hate-crime-brooklyn-subway-20200322-ufznc24nybcencdtja2ycbsx2i-story.html"
+                },
+                {
+                    "date": "03/04/2020",
+                    "title": "Video shows a man on the subway arguing with a fellow passenger, who is Asian, and then spraying Febreze air freshener on the Asian passenger.",
+                    "source": "ABC-NY",
+                    "link": "https://abc7ny.com/coronavirus-fear-video-shows-suspected-hate-crime-on-subway/5989856/"
                 }
             ]
         },
@@ -241,6 +337,25 @@
                     "source": "The New Yorker",
                     "link": "https://www.newyorker.com/culture/culture-desk/confronting-anti-asian-discrimination-during-the-coronavirus-crisis",
                     "image": "https://media.newyorker.com/photos/5e6f7fe925cee1000833da1a/master/w_2560%2Cc_limit/Park-AntiAsian.jpg"
+                },
+                {
+                    "date": "03/7/2020",
+                    "title": "A 13-year-old boy spat at a 59-year-old Asian man and allegedly saying Chinese people have COVID-19. The same boy attacked the same man again on March 10 in a similar incident.",
+                    "source": "CBS-NY",
+                    "link": "https://newyork.cbslocal.com/2020/03/12/coronavirus-anti-asian-hate-crime/"
+                },
+                {
+                    "date": "03/01/2020",
+                    "title": "An Asian man was standing on the street smoking a cigarette when someone threw a bucket of water on him, resulting in a physical altercation.",
+                    "source": "NextShark",
+                    "link": "https://nextshark.com/man-fights-back-after-getting-water-thrown-at-him-because-he-has-coronavirus-in-nyc/",
+                    "image": "https://cdn.statically.io/img/nextshark.com/wp-content/uploads/2020/03/ASIAN_MAN.png?quality=100"
+                },
+                {
+                    "date": "02/02/2020",
+                    "title": "An Asian woman was attacked in the subway station for wearing a mask. One witness said she heard a man call the woman, who appeared Asian, a \"diseased bitch.\"",
+                    "source": "CNN",
+                    "link": "https://www.cnn.com/2020/02/20/us/coronavirus-racist-attacks-against-asian-americans/index.html"
                 }
             ]
         },
@@ -252,6 +367,18 @@
                     "title": "A student at Binghamton University discovered that someone had submitted a racist response to a public Google form she had posted for an event. The submission included anti-Asian terms and referred to the coronavirus.",
                     "source": "Pipe Dream",
                     "link": "https://www.bupipedream.com/news/115467/as-covid-19-spreads-asian-students-at-bu-see-racism/"
+                }
+            ]
+        },
+        "Syracuse": {
+            "coordinate": [43.046944, -76.144444],
+            "incidents": [
+                {
+                    "date": "03/7/2020",
+                    "title": "At Syracuse University, a flier with information about preventing the spread of the coronavirus was vandalized with racist language targeting Chinese people.",
+                    "source": "The Daily Orange",
+                    "link": "http://dailyorange.com/2020/03/coronavirus-information-flyer-vandalized-anti-chinese-language/",
+                    "image": "http://dailyorange.com/resize/800/wp-content/uploads/2020/03/07211947/101817_Bird_AlexandraMoreo_PE.jpg"
                 }
             ]
         }
@@ -284,6 +411,17 @@
                     "title": "A student at the University of Notre Dame posted racist, anti-Asian, anti-Chinese comments on their Facebook page. The student also wrote \"Go home\" on the Facebook page of an international student from China.",
                     "source": "The Observer",
                     "link": "https://ndsmcobserver.com/2020/03/nd-postdoctoral-student-removed-from-program-after-posting-racist-comments/"
+                }
+            ]
+        },
+        "Plymouth": {
+            "coordinate": [41.343889, -86.3125],
+            "incidents": [
+                {
+                    "date": "02/12/2020",
+                    "title": "Kao Lor and Lee Lor, both of Hmong descent, were traveling through Indiana and tried to get a room at a Super 8 Motel. The Super 8 employee asked Lor if he was Chinese. When Lor asked why he needed to know the employee responded, \"Because of the coronavirus going around. And anyone from China, I am told, has to be picked up and quarantined for two weeks.\"",
+                    "source": "WBND",
+                    "link": "https://www.abc57.com/news/asian-man-turned-away-from-michiana-hotels-due-to-coronavirus-concerns"
                 }
             ]
         }
@@ -337,6 +475,45 @@
                     "source": "Facebook",
                     "link": "https://www.facebook.com/msnatuva/posts/2887692651307589",
                     "image": "https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/c195.0.960.960a/p960x960/12957489_1018140471596159_5683775144859867319_o.jpg?_nc_cat=108&_nc_sid=85a577&_nc_oc=AQlnOzavNzKMDaoS_B3WXtd5BQUUXVxmTzpfpFbDCcBT1zvfq0iGPrIOSKu8WFKAcAyUa0fc9SG3nUQKTayxnOt_&_nc_ht=scontent-sea1-1.xx&oh=4204eab737673f71ee974e6bc00c18d2&oe=5EABCD3B"
+                }
+            ]
+        }
+    },
+    "Pennsylvania": {
+        "Cumberland County": {
+            "coordinate": [40.17, -77.27],
+            "incidents": [
+                {
+                    "date": "03/06/2020",
+                    "title": "A passerby on campus harassed and hurled racist insults at an Asian-American student at a local college.",
+                    "source": "ADL",
+                    "link": "https://www.adl.org/blog/reports-of-anti-asian-assaults-harassment-and-hate-crimes-rise-as-coronavirus-spreads"
+                }
+            ]
+        },
+        "Philadelphia": {
+            "coordinate": [39.952778, -75.163611],
+            "incidents": [
+                {
+                    "date": "02/27/2020",
+                    "title": "A young man and woman were physically assaulted by a group of juveniles at a SEPTA station in what appears to be a racially motivated anti-Asian attack.",
+                    "source": "NextShark",
+                    "link": "https://nextshark.com/asians-allegedly-attacked-by-mob-on-philadelphia-subway-in-disturbing-video/",
+                    "image": "https://cdn.statically.io/img/nextshark.com/wp-content/uploads/2020/03/edgdgdg-1536x820.jpg?quality=100"
+                }
+            ]
+        }
+    },
+    "New Jersey": {
+        "Jersey City": {
+            "coordinate": [40.714, -74.071],
+            "incidents": [
+                {
+                    "date": "01/15/2020",
+                    "title": "The NJ Patch reported that in January, a man approached an Asian woman on the street and told her to \"Go back to China\" and referred to her with an anti-Asian slur. He also spat in her direction",
+                    "source": "Patch",
+                    "link": "https://patch.com/new-jersey/montclair/group-hurls-racist-slurs-newark-man-montclair-police",
+                    "image": "https://patch.com/img/cdn20/users/22844250/20200317/050203/styles/patch_image/public/general-policecarlights4-patch___17165913339.jpg?width=725"
                 }
             ]
         }
