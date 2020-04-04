@@ -36,6 +36,13 @@
                     "title": "A man yelled at a Filipino-American man, using an anti-Asian derogatory term.",
                     "source": "Twitter",
                     "link": "https://twitter.com/TheRNKyle/status/1242598596836339712?s=20"
+                },
+                {
+                    "date": "03/9/2020",
+                    "title": "A woman told reporters that while walking to the gym she was harassed by a man who shouted expletives about China at her and encouraged a passing bus to \"run them over.\" The man then spat at her.",
+                    "source": "New York Times",
+                    "link": "https://www.nytimes.com/2020/03/23/us/coronavirus-asian-americans-attacks.html",
+                    "image": "https://static01.nyt.com/images/2020/03/20/us/00VIRUS-ASIANFEAR-zhu/merlin_170758545_da314342-bdf7-4cd5-91ae-65d33c6ade80-superJumbo.jpg?quality=90&auto=webp"
                 }
             ]
         }
@@ -215,6 +222,25 @@
                     "source": "Patch",
                     "link": "https://patch.com/new-york/new-york-city/die-coronavirus-says-spitting-penn-station-assailant",
                     "image": "https://patch.com/img/cdn20/users/22926829/20200312/041940/styles/patch_image/public/newyork-tl-0177___12161432592.jpg?width=725"
+                },
+                {
+                    "date": "03/10/2020",
+                    "title": "NYPD arrested a 13-year-old boy and charged him with assault and aggravated harassment as hate crimes after he approached a 59-year-old Asian man from behind and made anti-Asian statements. The boy allegedly told the victim to \"go back to his country\" and mentioned the coronavirus. He also kicked the victim.",
+                    "source": "CBS-NY",
+                    "link": "https://newyork.cbslocal.com/2020/03/12/coronavirus-anti-asian-hate-crime/"
+                },
+                {
+                    "date": "03/10/2020",
+                    "title": "An international student from Korea was assaulted while entering a building on West 34th Street. The suspect asked her, \"Where's your (expletive) mask?\" She then proceeded to grab the victim by the hair and punch her in the face. The woman allegedly also told the victim, \"You've got coronavirus, you Asian (expletive).\" NYPD is investigating the assault as a possible bias crime. ",
+                    "source": "ABC-NY",
+                    "link": "https://abc7ny.com/wheres-your-(expletive)-mask-asian-woman-attacked-in-nyc/6003396/"
+                },
+                {
+                    "date": "03/10/2020",
+                    "title": "Ed Park wrote in The New Yorker magazine that \"a young black man\" told him \"Get the fuck away from me.\" Park asked the man, \"Are you talking to me?\" and the man responded: \"Yes, you, fucking Chinese motherfucker, don't fucking get me sick.\" Park is Korean.",
+                    "source": "The New Yorker",
+                    "link": "https://www.newyorker.com/culture/culture-desk/confronting-anti-asian-discrimination-during-the-coronavirus-crisis",
+                    "image": "https://media.newyorker.com/photos/5e6f7fe925cee1000833da1a/master/w_2560%2Cc_limit/Park-AntiAsian.jpg"
                 }
             ]
         },
@@ -297,6 +323,20 @@
                     "title": "A Cambodian-American man was at a 7-Eleven when a fellow customer called him a \"chink\" multiple times.",
                     "source": "NextShark",
                     "link": "https://nextshark.com/7-eleven-washington-dc-racism/"
+                }
+            ]
+        }
+    },
+    "Virgina": {
+        "Charlottesville": {
+            "coordinate": [38.0299, -78.479],
+            "incidents": [
+                {
+                    "date": "03/10/2020",
+                    "title": "The Mainland Student Network at the University of Virginia reported that two Chinese international students were attacked by assailant(s) who threw raw eggs at them from a moving vehicle.",
+                    "source": "Facebook",
+                    "link": "https://www.facebook.com/msnatuva/posts/2887692651307589",
+                    "image": "https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/c195.0.960.960a/p960x960/12957489_1018140471596159_5683775144859867319_o.jpg?_nc_cat=108&_nc_sid=85a577&_nc_oc=AQlnOzavNzKMDaoS_B3WXtd5BQUUXVxmTzpfpFbDCcBT1zvfq0iGPrIOSKu8WFKAcAyUa0fc9SG3nUQKTayxnOt_&_nc_ht=scontent-sea1-1.xx&oh=4204eab737673f71ee974e6bc00c18d2&oe=5EABCD3B"
                 }
             ]
         }

@@ -11,8 +11,9 @@ export const Reported = styled.div`
 export const Back = styled(Link)`
     display: block;
     color: #36a2eb;
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 24px;
+    font-weight: 600;
     text-decoration: none;
 `;
 

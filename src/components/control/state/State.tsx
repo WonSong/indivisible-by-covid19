@@ -52,7 +52,7 @@ export function State(): React.ReactElement | null {
 
     return (
         <>
-            <Styled.Back to="/">Back to US</Styled.Back>
+            <Styled.Back to="/">Back to home</Styled.Back>
 
             <Heading>Hate crimes reported in {viewData?.name}</Heading>
             <Styled.Reported>{viewData?.incidentsCount}</Styled.Reported>
