@@ -16,7 +16,9 @@ export function Control(): React.ReactElement {
             <Route path="/states/:state" exact component={State} />
 
             <Styled.PulledDown>
-                <Styled.ReportButton>Report hate crime</Styled.ReportButton>
+                <Styled.ReportButton href="http://www.asianpacificpolicyandplanningcouncil.org/stop-aapi-hate/">
+                    Report hate crime
+                </Styled.ReportButton>
                 <Styled.SiteInfo>
                     <Styled.InlineLink to="/about">About</Styled.InlineLink> |{' '}
                     <Styled.InlineExternalLink

@@ -48,7 +48,9 @@ export const PulledDown = styled.div`
     }
 `;
 
-export const ReportButton = styled.button`
+export const ReportButton = styled.a`
+    display: block;
+    text-align: center;
     margin-top: 24px;
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.05);

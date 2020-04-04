@@ -80,7 +80,7 @@ export function useMap(id: string): Microsoft.Maps.Map | undefined {
 
             clearInterval(interval);
         }, 100);
-    }, [id, Microsoft.Maps]);
+    }, [id]);
 
     return map.current;
 }
