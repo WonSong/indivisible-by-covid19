@@ -4,7 +4,7 @@ import { debounce } from '../utils/debounce';
 function changeBackgroundOpacity(): void {
     console.log(document.documentElement.scrollTop);
 
-    const root = document.getElementById('test');
+    const root = document.getElementById('bg');
     if (!root) return;
 
     const maxOpacity = 0.7;

@@ -14,7 +14,7 @@ function App(): React.ReactElement {
                     <Map />
                     <Control />
                     <Route path="/about" component={Panel} />
-                    <div id="test"></div>
+                    <div id="bg"></div>
                 </Route>
             </DataProvider>
         </BrowserRouter>

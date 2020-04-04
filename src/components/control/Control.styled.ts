@@ -16,7 +16,7 @@ export const Root = styled.div`
     width: calc(100% - 32px);
 
     @media (min-width: 1200px) {
-        width: 320px;
+        width: 360px;
         position: fixed;
         margin: 0;
         top: 32px;

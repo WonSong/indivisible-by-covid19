@@ -28,11 +28,15 @@ function createPins(data: IData): Promise<Microsoft.Maps.Pushpin[]> {
 
         const pins: Microsoft.Maps.Pushpin[] = coordinates.map(({ coordinate, incidentCount }) => {
             const radius = incidentCount * 5;
+            const minOpacity = 0.3;
+            const opacity = 0.7 - incidentCount / 10;
 
             return new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(coordinate[0], coordinate[1]), {
                 icon: `
                         <svg xmlns="http://www.w3.org/2000/svg" width="${radius * 2}" height="${radius * 2}">
-                            <circle cx="${radius}" cy="${radius}" r="${radius}" fill="rgba(255,23,72, 0.5)" />
+                            <circle cx="${radius}" cy="${radius}" r="${radius}" fill="rgba(255,23,72, ${
+                    minOpacity > opacity ? minOpacity : opacity
+                })" />
                         </svg>`,
                 anchor: new Microsoft.Maps.Point(radius, radius),
             });

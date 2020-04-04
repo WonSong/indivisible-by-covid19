@@ -1,72 +1,50 @@
 import * as React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useHistory } from 'react-router-dom';
 import * as Styled from './State.styled';
 import { Heading, Heading2 } from '../../heading';
 import { DataContext } from '../../data-provider/DataContext';
-import { IData, IIncident } from '../../../models/IData';
-import { slugify } from '../../../utils/slugify';
+import { IIncident } from '../../../models/IData';
 import { Incident } from './incident';
 import { useDarkerBackgroundOnScroll } from '../../../hooks/useDarkerBackgroundOnScroll';
+import { ICitiesIncidents } from '../../../models/IDataContext';
 
 export function State(): React.ReactElement | null {
-    const { state } = useParams();
-    const data: IData = React.useContext(DataContext);
-
     useDarkerBackgroundOnScroll();
+    const { replace } = useHistory();
+    const { state } = useParams();
+    const { citiesIncidentsByState } = React.useContext(DataContext);
 
-    const viewData = React.useMemo(() => {
-        let name: string | null = null;
-        let incidentsCount = 0;
-        const cities: { name: string; incidents: IIncident[]; count: number }[] = [];
+    if (!state) {
+        replace('/');
 
-        for (const stateName in data) {
-            if (slugify(stateName) === state) {
-                name = stateName;
+        return null;
+    }
 
-                break;
-            }
-        }
+    const data = citiesIncidentsByState[state];
+    if (!data) {
+        replace('/');
 
-        if (!name) return;
-
-        for (const cityName in data[name]) {
-            const cityData = data[name][cityName];
-
-            incidentsCount += cityData.incidents.length;
-            cities.push({
-                name: cityName,
-                incidents: cityData.incidents,
-                count: cityData.incidents.length,
-            });
-        }
-
-        cities.sort((a, b) => (a.count > b.count ? -1 : 1));
-
-        return {
-            name,
-            cities,
-            incidentsCount,
-        };
-    }, [state, data]);
+        return null;
+    }
 
     return (
         <>
             <Styled.Back to="/">Back to home</Styled.Back>
 
-            <Heading>Hate crimes reported in {viewData?.name}</Heading>
-            <Styled.Reported>{viewData?.incidentsCount}</Styled.Reported>
+            <Heading>Hate crimes reported in {data.name}</Heading>
+            <Styled.Reported>{data.count}</Styled.Reported>
 
             <Heading>Incidents</Heading>
             <Styled.Incidents>
-                {viewData?.cities.map((city) => (
-                    <>
+                {data?.cities.map((city: ICitiesIncidents) => (
+                    <div key={city.name}>
                         <Heading2>
-                            {city.name} ({city.incidents.length})
+                            {city.name} ({city.count})
                         </Heading2>
                         {city.incidents.map((incident: IIncident) => (
                             <Incident key={incident.link} incident={incident} />
                         ))}
-                    </>
+                    </div>
                 ))}
             </Styled.Incidents>
         </>

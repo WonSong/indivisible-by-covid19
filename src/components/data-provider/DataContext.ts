@@ -1,4 +1,4 @@
 import { createContext } from 'react';
-import { IData } from '../../models/IData';
+import { IDataContext } from '../../models/IDataContext';
 
-export const DataContext = createContext<IData>({});
+export const DataContext = createContext<IDataContext>({});
