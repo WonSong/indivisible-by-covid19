@@ -9,6 +9,8 @@ import { Section } from '../section';
 export function Control(): React.ReactElement {
     return (
         <Styled.Root>
+            <Styled.UpIcon src="/static/chevron-up.svg" />
+
             <Section>
                 <Styled.TagLine>#STOPAAPIHATE</Styled.TagLine>
                 <Styled.Brand>

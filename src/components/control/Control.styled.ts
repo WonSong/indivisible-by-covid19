@@ -26,6 +26,18 @@ export const Root = styled.div`
     }
 `;
 
+export const UpIcon = styled.img`
+    display: block;
+    margin: auto;
+    width: 16px;
+    height: 16px;
+    margin-bottom: 16px;
+
+    @media (min-width: 1200px) {
+        display: none;
+    }
+`;
+
 export const Brand = styled.div`
     font-size: 28px;
     letter-spacing: 2px;
