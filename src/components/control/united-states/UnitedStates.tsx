@@ -7,11 +7,12 @@ import { DataContext } from '../../data-provider/DataContext';
 import { MainFigure } from '../main-figure';
 import { TrendChart } from '../trend-chart';
 import { Content } from '../Content';
+import { IncidentList } from '../incident-list';
 
 export function UnitedStates(): React.ReactElement {
     useDarkerBackgroundOnScroll();
 
-    const { totalIncidents, isLoading } = React.useContext(DataContext);
+    const { totalIncidents, isLoading, incidents } = React.useContext(DataContext);
 
     return (
         <>
@@ -22,8 +23,13 @@ export function UnitedStates(): React.ReactElement {
 
             <Content>
                 <Section>
-                    <Heading2>Trend in 2020</Heading2>
+                    <Heading2>Trend</Heading2>
                     <TrendChart />
+                </Section>
+
+                <Section>
+                    <Heading2>Latest incidents</Heading2>
+                    <IncidentList pageSize={3} incidents={incidents} />
                 </Section>
 
                 <Heading2>States</Heading2>

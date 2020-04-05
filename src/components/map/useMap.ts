@@ -2,6 +2,7 @@
 
 import { useRef, useEffect } from 'react';
 import { IData } from '../../models/IData';
+import { Coordinate } from '../../models/Coordinate';
 
 async function fetchData(): Promise<IData> {
     const response = await fetch('/data.json');
@@ -32,22 +33,30 @@ function createPins(data: IData): Promise<Microsoft.Maps.Pushpin[]> {
             const minOpacity = 0.3;
             const opacity = 0.7 - incidentCount / 10;
 
-            return new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(coordinate[0], coordinate[1]), {
-                icon: `
-                        <svg xmlns="http://www.w3.org/2000/svg" width="${radius * 2}" height="${radius * 2}">
+            return new Microsoft.Maps.Pushpin(
+                new Microsoft.Maps.Location(coordinate[0], coordinate[1]),
+                {
+                    icon: `
+                        <svg xmlns="http://www.w3.org/2000/svg" width="${radius * 2}" height="${
+                        radius * 2
+                    }">
                             <circle cx="${radius}" cy="${radius}" r="${radius}" fill="rgba(255,23,72, ${
-                    minOpacity > opacity ? minOpacity : opacity
-                })" />
+                        minOpacity > opacity ? minOpacity : opacity
+                    })" />
                         </svg>`,
-                anchor: new Microsoft.Maps.Point(radius, radius),
-            });
+                    anchor: new Microsoft.Maps.Point(radius, radius),
+                }
+            );
         });
 
         resolve(pins);
     });
 }
 
-export function useMap(id: string): Microsoft.Maps.Map | undefined {
+export function useMap(
+    id: string,
+    changeCallback: (coordinate: Coordinate, zoom: number) => void
+): Microsoft.Maps.Map | undefined {
     const map = useRef<Microsoft.Maps.Map>();
 
     useEffect(() => {
@@ -85,6 +94,14 @@ export function useMap(id: string): Microsoft.Maps.Map | undefined {
                     .then((pins) => {
                         map.current.entities.push(pins);
                     });
+            });
+
+            Microsoft.Maps.Events.addHandler(map.current, 'viewchangeend', () => {
+                const center = map.current?.getCenter();
+                const zoom: number = map.current?.getZoom();
+                const coordinate: Coordinate = [center?.latitude, center?.longitude];
+
+                changeCallback(coordinate, zoom);
             });
 
             clearInterval(interval);

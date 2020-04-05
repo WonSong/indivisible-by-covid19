@@ -10,14 +10,14 @@ export interface IIncidentCountByMonth {
     [key: number]: number;
 }
 
-export interface IStateIncident extends IIncident {
+export interface IIncidentDetail extends IIncident {
     cityName: string;
     cityCoordinate: number[];
 }
 
 export interface IStateIncidents {
     stateName: string;
-    incidents: IStateIncident[];
+    incidents: IIncidentDetail[];
 }
 
 export interface IIncidentsByState {
@@ -27,6 +27,7 @@ export interface IIncidentsByState {
 export interface IDataContext {
     isLoading: boolean;
     totalIncidents: number;
+    incidents: IIncidentDetail[];
     stateIncidentCounts: IStateIncidentCount[];
     incidentCountByMonth: IIncidentCountByMonth;
     incidentsByState: IIncidentsByState;

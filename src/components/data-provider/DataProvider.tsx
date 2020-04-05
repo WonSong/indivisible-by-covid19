@@ -1,7 +1,13 @@
 import * as React from 'react';
 import { IData, IIncident } from '../../models/IData';
 import { DataContext } from './DataContext';
-import { IStateIncidentCount, IDataContext, IIncidentCountByMonth, IIncidentsByState } from '../../models/IDataContext';
+import {
+    IStateIncidentCount,
+    IDataContext,
+    IIncidentCountByMonth,
+    IIncidentsByState,
+    IIncidentDetail,
+} from '../../models/IDataContext';
 import { slugify } from '../../utils/slugify';
 
 function getIncidentCountbyMonth(incidents: IIncident[]): IIncidentCountByMonth {
@@ -19,10 +25,9 @@ function getIncidentCountbyMonth(incidents: IIncident[]): IIncidentCountByMonth 
 }
 
 function prepData(data: IData): IDataContext {
-    let totalIncidents = 0;
     const stateIncidentCounts: IStateIncidentCount[] = [];
     const incidentsByState: IIncidentsByState = {};
-    let incidents: IIncident[] = [];
+    const incidents: IIncidentDetail[] = [];
 
     for (const stateName in data) {
         let stateIncidentCount = 0;
@@ -38,16 +43,16 @@ function prepData(data: IData): IDataContext {
             const cityData = stateData[cityName];
 
             stateIncidentCount += cityData.incidents.length;
-            totalIncidents += cityData.incidents.length;
-
-            incidents = incidents.concat(cityData.incidents);
 
             cityData.incidents.forEach((incident: IIncident) => {
-                incidentsByState[slugifiedStateName].incidents.push({
+                const incidentDetail: IIncidentDetail = {
                     ...incident,
                     cityName,
                     cityCoordinate: cityData.coordinate,
-                });
+                };
+
+                incidentsByState[slugifiedStateName].incidents.push(incidentDetail);
+                incidents.push(incidentDetail);
             });
         }
 
@@ -65,7 +70,8 @@ function prepData(data: IData): IDataContext {
 
     return {
         isLoading: false,
-        totalIncidents,
+        totalIncidents: incidents.length,
+        incidents,
         stateIncidentCounts,
         incidentCountByMonth: getIncidentCountbyMonth(incidents),
         incidentsByState,
@@ -77,6 +83,7 @@ export function DataProvider(props: React.PropsWithChildren<{}>): React.ReactEle
     const [state, setState] = React.useState<IDataContext>({
         isLoading: true,
         totalIncidents: 0,
+        incidents: [],
         stateIncidentCounts: [],
         incidentCountByMonth: {},
         incidentsByState: {},

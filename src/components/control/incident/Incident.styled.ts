@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Color } from '../../../../resources/constants';
+import { Color } from '../../../resources/constants';
 
 export const Root = styled.a`
     display: block;
