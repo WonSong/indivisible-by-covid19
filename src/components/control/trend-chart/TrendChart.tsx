@@ -18,7 +18,8 @@ export function TrendChart(): React.ReactElement {
             new Chart(context, {
                 type: 'line',
                 data: {
-                    labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'],
+                    //labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'],
+                    labels: ['Jan', 'Feb', 'Mar', 'Apr'],
                     datasets: [
                         {
                             label: '',

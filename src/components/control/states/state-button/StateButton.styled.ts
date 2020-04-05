@@ -8,6 +8,7 @@ export const Root = styled.button`
     padding: 8px 12px;
     border-radius: 3px;
     font-size: 13px;
+    line-height: 15px;
     margin-bottom: 6px;
     color: #555;
     cursor: pointer;
@@ -33,4 +34,12 @@ export const Count = styled.div`
     float: right;
     color: #666;
     margin-left: 12px;
+`;
+
+export const Icon = styled.img`
+    float: right;
+    width: 10px;
+    height: 10px;
+    margin-top: 2px;
+    margin-left: 6px;
 `;
