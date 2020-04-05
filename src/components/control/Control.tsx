@@ -5,6 +5,8 @@ import { UnitedStates } from './united-states';
 import { State } from './state';
 import { ReportButton } from './report-button';
 import { Section } from '../section';
+import { About } from './about';
+import { ExternalLink, Link } from '../link';
 
 export function Control(): React.ReactElement {
     return (
@@ -21,28 +23,28 @@ export function Control(): React.ReactElement {
             </Section>
 
             <Route path="/" exact component={UnitedStates} />
-            <Route path="/about" exact component={UnitedStates} />
+            <Route path="/about" exact component={About} />
             <Route path="/states/:state" exact component={State} />
 
             <Styled.PulledDown>
                 <Styled.SiteInfo>
-                    <Styled.InlineLink to="/about">About</Styled.InlineLink> |{' '}
-                    <Styled.InlineExternalLink
+                    <Link to="/">Home</Link> | <Link to="/about">About</Link> |{' '}
+                    <ExternalLink
                         href="https://www.buymeacoffee.com/w0ns0ng"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         Buy me a coffee
-                    </Styled.InlineExternalLink>
+                    </ExternalLink>
                     <br />
                     Made with ❤️by{' '}
-                    <Styled.InlineExternalLink
+                    <ExternalLink
                         href="https://github.com/wonsong"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         Won
-                    </Styled.InlineExternalLink>
+                    </ExternalLink>
                 </Styled.SiteInfo>
             </Styled.PulledDown>
         </Styled.Root>

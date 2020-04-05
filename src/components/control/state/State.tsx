@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { useParams, useHistory } from 'react-router-dom';
-import * as Styled from './State.styled';
 import { Heading, Heading2 } from '../../heading';
 import { DataContext } from '../../data-provider/DataContext';
 import { useDarkerBackgroundOnScroll } from '../../../hooks/useDarkerBackgroundOnScroll';
@@ -8,6 +7,7 @@ import { Section } from '../../section';
 import { MainFigure } from '../main-figure';
 import { Content } from '../Content';
 import { IncidentList } from '../incident-list';
+import { BackButton } from '../back-button';
 
 export function State(): React.ReactElement | null {
     useDarkerBackgroundOnScroll();
@@ -31,7 +31,7 @@ export function State(): React.ReactElement | null {
 
     return (
         <>
-            <Styled.Back to="/">Back to United States</Styled.Back>
+            <BackButton />
 
             <Section>
                 <Heading>{data.stateName}</Heading>

@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { Color } from '../../resources/constants';
+import { ExternalLink } from '../link';
 
 export const Root = styled.div`
     background-color: white;
@@ -86,7 +87,7 @@ export const InlineLink = styled(Link)`
     }
 `;
 
-export const InlineExternalLink = styled.a`
+export const InlineExternalLink = styled(ExternalLink)`
     font-weight: 600;
     color: ${Color.LinkColor};
     text-decoration: none;

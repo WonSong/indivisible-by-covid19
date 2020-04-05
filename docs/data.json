@@ -34,6 +34,18 @@
                     "image": "https://ca-times.brightspotcdn.com/dims4/default/3377419/2147483647/strip/true/crop/2048x1271+0+0/resize/840x521!/quality/90/?url=https%3A%2F%2Fwww.trbimg.com%2Fimg-51f2cea4%2Fturbine%2Fla-me-chinatown-then-and-now-pictures-20130726-014"
                 },
                 {
+                    "date": "02/14/2020",
+                    "title": "Dylan Muriano was sent to the nurse’s office at his middle school on Wednesday. He said \"All the other students who are coughing, they dont get sent out. But they’re not Asian.\"",
+                    "source": "CBS",
+                    "link": "https://www.cbsnews.com/news/coronavirus-bullies-attack-asian-teen-los-angeles-accusing-him-of-having-coronavirus/"
+                },
+                {
+                    "date": "02/13/2020",
+                    "title": "A flyer was found in the Carson area of Los Angeles \"with a fake seal of the World Health Organization, [telling] residents to avoid Asian-American businesses because of a coronavirus outbreak.\"",
+                    "source": "Reuters",
+                    "link": "https://news.trust.org/item/20200214225344-4d4x6"
+                },
+                {
                     "date": "02/13/2020",
                     "title": "In the San Fernando Valley, a 16-year-old student, who is of Asian descent, was physically assaulted by classmates due to coronavirus fears.",
                     "source": "CBS-Los Angeles",
@@ -436,6 +448,12 @@
                 },
                 {
                     "date": "03/01/2020",
+                    "title": "Dr. Edward Chew was harassed by three men in their 20s, who then followed him into the parking lot while he was purchasing protective gear for his staff at a large Manhattan hospital.",
+                    "source": "New York Times",
+                    "link": "https://www.nytimes.com/2020/03/23/us/chinese-coronavirus-racist-attacks.html"
+                },
+                {
+                    "date": "03/01/2020",
                     "title": "An Asian man was standing on the street smoking a cigarette when someone threw a bucket of water on him, resulting in a physical altercation.",
                     "source": "NextShark",
                     "link": "https://nextshark.com/man-fights-back-after-getting-water-thrown-at-him-because-he-has-coronavirus-in-nyc/",
@@ -744,7 +762,7 @@
             "incidents": [
                 {
                     "date": "04/04/2020",
-                    "title": "#canceldanbilzerian and other celebs who defend the term \"Chinese Virus\"",
+                    "title": "#canceldanbilzerian and other celebs defend the term \"Chinese Virus\"",
                     "source": "Reddit",
                     "link": "https://www.reddit.com/r/asianamerican/comments/fv7b2n/canceldanbilzerian_and_other_celebs_who_defend/",
                     "image": "https://preview.redd.it/v1wya4n18xq41.jpg?width=640&crop=smart&auto=webp&s=8e7d6f1f71727cc52b07c37d39b2b3429fd36df3"

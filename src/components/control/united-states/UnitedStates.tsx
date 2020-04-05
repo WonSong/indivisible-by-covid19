@@ -21,7 +21,7 @@ export function UnitedStates(): React.ReactElement {
                 <MainFigure>{totalIncidents}</MainFigure>
             </Section>
 
-            <Content>
+            <Content margin={10}>
                 <Section>
                     <Heading2>Trend</Heading2>
                     <TrendChart />

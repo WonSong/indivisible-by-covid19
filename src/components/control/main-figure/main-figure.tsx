@@ -7,7 +7,10 @@ export function MainFigure(props: React.PropsWithChildren<{}>): React.ReactEleme
     return (
         <Styled.Root>
             <Styled.MainFigure>{children}</Styled.MainFigure>
-            <Styled.Description>Reported hate crimes</Styled.Description>
+            <Styled.Description>
+                Reported hate crimes{' '}
+                <Styled.AdditionalDescription to="/about">(?)</Styled.AdditionalDescription>
+            </Styled.Description>
         </Styled.Root>
     );
 }
