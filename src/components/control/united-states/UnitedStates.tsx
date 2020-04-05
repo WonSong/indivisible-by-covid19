@@ -1,10 +1,12 @@
 import * as React from 'react';
 import { States } from '../states';
-import { Heading } from '../../heading';
+import { Heading, Heading2 } from '../../heading';
 import { Section } from '../../section';
 import { useDarkerBackgroundOnScroll } from '../../../hooks/useDarkerBackgroundOnScroll';
 import { DataContext } from '../../data-provider/DataContext';
 import { MainFigure } from '../main-figure';
+import { TrendChart } from '../trend-chart';
+import { Content } from '../Content';
 
 export function UnitedStates(): React.ReactElement {
     useDarkerBackgroundOnScroll();
@@ -18,8 +20,15 @@ export function UnitedStates(): React.ReactElement {
                 <MainFigure>{totalIncidents}</MainFigure>
             </Section>
 
-            <Heading>By state</Heading>
-            <States />
+            <Content>
+                <Section>
+                    <Heading2>Trend in 2020</Heading2>
+                    <TrendChart />
+                </Section>
+
+                <Heading2>By state</Heading2>
+                <States />
+            </Content>
         </>
     );
 }

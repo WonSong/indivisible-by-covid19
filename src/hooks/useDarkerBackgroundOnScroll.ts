@@ -2,8 +2,6 @@ import { useEffect } from 'react';
 import { debounce } from '../utils/debounce';
 
 function changeBackgroundOpacity(): void {
-    console.log(document.documentElement.scrollTop);
-
     const root = document.getElementById('bg');
     if (!root) return;
 

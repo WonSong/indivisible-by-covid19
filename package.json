@@ -12,6 +12,7 @@
     "author": "Won Song <hello@wonsong.me>",
     "license": "MIT",
     "dependencies": {
+        "chart.js": "^2.9.3",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
         "react-is": "^16.13.1",
@@ -19,6 +20,7 @@
         "styled-components": "^5.0.1"
     },
     "devDependencies": {
+        "@types/chart.js": "^2.9.18",
         "@types/react": "^16.9.32",
         "@types/react-dom": "^16.9.6",
         "@types/react-router-dom": "^5.1.3",

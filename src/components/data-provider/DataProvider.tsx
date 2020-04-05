@@ -1,18 +1,34 @@
 import * as React from 'react';
-import { IData } from '../../models/IData';
+import { IData, IIncident } from '../../models/IData';
 import { DataContext } from './DataContext';
 import {
     IStateIncidentCount,
     IDataContext,
     ICitiesIncidentsByState,
     ICitiesIncidents,
+    IIncidentCountByMonth,
 } from '../../models/IDataContext';
 import { slugify } from '../../utils/slugify';
+
+function getIncidentCountbyMonth(incidents: IIncident[]): IIncidentCountByMonth {
+    const incidentCountByMonth: IIncidentCountByMonth = {};
+
+    incidents.forEach((incident: IIncident): void => {
+        const date = new Date(incident.date);
+        const month = date.getMonth();
+
+        incidentCountByMonth[month] = incidentCountByMonth[month] || 0;
+        incidentCountByMonth[month]++;
+    });
+
+    return incidentCountByMonth;
+}
 
 function prepData(data: IData): IDataContext {
     let totalIncidents = 0;
     const stateIncidentCounts: IStateIncidentCount[] = [];
     const citiesIncidentsByState: ICitiesIncidentsByState = {};
+    let incidents: IIncident[] = [];
 
     for (const stateName in data) {
         let stateIncidentCount = 0;
@@ -33,6 +49,7 @@ function prepData(data: IData): IDataContext {
             };
 
             stateCitiesData.push(citiesIncidents);
+            incidents = incidents.concat(cityData.incidents);
         }
 
         stateIncidentCounts.push({
@@ -51,13 +68,14 @@ function prepData(data: IData): IDataContext {
     }
 
     stateIncidentCounts.sort((a, b) => (a.count > b.count ? -1 : 1));
+    incidents.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
 
     return {
         isLoading: false,
         totalIncidents,
         stateIncidentCounts,
         citiesIncidentsByState,
-        data,
+        incidentCountByMonth: getIncidentCountbyMonth(incidents),
     };
 }
 
@@ -68,7 +86,7 @@ export function DataProvider(props: React.PropsWithChildren<{}>): React.ReactEle
         totalIncidents: 0,
         stateIncidentCounts: [],
         citiesIncidentsByState: {},
-        data: {},
+        incidentCountByMonth: {},
     });
 
     React.useEffect(() => {

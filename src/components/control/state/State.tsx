@@ -9,6 +9,7 @@ import { useDarkerBackgroundOnScroll } from '../../../hooks/useDarkerBackgroundO
 import { ICitiesIncidents } from '../../../models/IDataContext';
 import { Section } from '../../section';
 import { MainFigure } from '../main-figure';
+import { Content } from '../Content';
 
 export function State(): React.ReactElement | null {
     useDarkerBackgroundOnScroll();
@@ -38,8 +39,7 @@ export function State(): React.ReactElement | null {
                 <MainFigure>{data.count}</MainFigure>
             </Section>
 
-            <Heading>Incidents</Heading>
-            <Styled.Incidents>
+            <Content margin={40}>
                 {data?.cities.map((city: ICitiesIncidents) => (
                     <div key={city.name}>
                         <Heading2>
@@ -50,7 +50,7 @@ export function State(): React.ReactElement | null {
                         ))}
                     </div>
                 ))}
-            </Styled.Incidents>
+            </Content>
         </>
     );
 }
