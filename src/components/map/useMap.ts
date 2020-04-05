@@ -22,32 +22,36 @@ function createPins(data: IData): Promise<Microsoft.Maps.Pushpin[]> {
                 if (!cityData.coordinate) continue;
 
                 coordinates.push({
+                    cityName,
                     coordinate: cityData.coordinate,
                     incidentCount: cityData.incidents.length,
                 });
             }
         }
 
-        const pins: Microsoft.Maps.Pushpin[] = coordinates.map(({ coordinate, incidentCount }) => {
-            const radius = incidentCount * (window.innerWidth < 1200 ? 5 : 10);
-            const minOpacity = 0.3;
-            const opacity = 0.7 - incidentCount / 10;
+        const pins: Microsoft.Maps.Pushpin[] = coordinates.map(
+            ({ cityName, coordinate, incidentCount }) => {
+                const radius = incidentCount * (window.innerWidth < 1200 ? 5 : 10);
+                const minOpacity = 0.3;
+                const opacity = 0.7 - incidentCount / 10;
 
-            return new Microsoft.Maps.Pushpin(
-                new Microsoft.Maps.Location(coordinate[0], coordinate[1]),
-                {
-                    icon: `
+                return new Microsoft.Maps.Pushpin(
+                    new Microsoft.Maps.Location(coordinate[0], coordinate[1]),
+                    {
+                        icon: `
                         <svg xmlns="http://www.w3.org/2000/svg" width="${radius * 2}" height="${
-                        radius * 2
-                    }">
+                            radius * 2
+                        }">
                             <circle cx="${radius}" cy="${radius}" r="${radius}" fill="rgba(255,23,72, ${
-                        minOpacity > opacity ? minOpacity : opacity
-                    })" />
+                            minOpacity > opacity ? minOpacity : opacity
+                        })" />
                         </svg>`,
-                    anchor: new Microsoft.Maps.Point(radius, radius),
-                }
-            );
-        });
+                        anchor: new Microsoft.Maps.Point(radius, radius),
+                        title: `${cityName} (${incidentCount})`,
+                    }
+                );
+            }
+        );
 
         resolve(pins);
     });
@@ -92,6 +96,15 @@ export function useMap(
                 fetchData()
                     .then(createPins)
                     .then((pins) => {
+                        pins.forEach((pin) => {
+                            Microsoft.Maps.Events.addHandler(pin, 'click', () => {
+                                map.current?.setView({
+                                    center: pin.getLocation(),
+                                    zoom: window.innerWidth > 1200 ? 7 : 6,
+                                });
+                            });
+                        });
+
                         map.current.entities.push(pins);
                     });
             });
