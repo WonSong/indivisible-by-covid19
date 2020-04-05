@@ -14,6 +14,7 @@ const contentCountStep = 10;
 
 export function State(): React.ReactElement | null {
     useDarkerBackgroundOnScroll();
+
     const { replace } = useHistory();
     const { state } = useParams();
     const { incidentsByState } = React.useContext(DataContext);

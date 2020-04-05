@@ -17,8 +17,8 @@ export const Back = styled(Link)`
 `;
 
 export const Incidents = styled.div`
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
 `;
 
 export const LoadMoreButton = styled.button`

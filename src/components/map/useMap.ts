@@ -18,6 +18,7 @@ function createPins(data: IData): Promise<Microsoft.Maps.Pushpin[]> {
             const stateData = data[stateName];
             for (const cityName in stateData) {
                 const cityData = stateData[cityName];
+                if (!cityData.coordinate) continue;
 
                 coordinates.push({
                     coordinate: cityData.coordinate,

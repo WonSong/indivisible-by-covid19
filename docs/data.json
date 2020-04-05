@@ -555,7 +555,20 @@
                     "date": "03/14/2020",
                     "title": "A Burmese man and his two children, ages six and two, were attacked and stabbed at a Sam’s Club by a 19-year-old man. The alleged assailant admitted to targeting the family because he believed the family was Chinese and infecting people with coronavirus. The assailant was charged with three counts of attempted capital murder and one count aggravated assault.",
                     "source": "The Daily Beast",
-                    "link": "https://www.thedailybeast.com/stabbing-of-asian-american-2-year-old-and-her-family-was-a-coronavirus-fueled-hate-crime-feds-say?ref=author"
+                    "link": "https://www.thedailybeast.com/stabbing-of-asian-american-2-year-old-and-her-family-was-a-coronavirus-fueled-hate-crime-feds-say?ref=author",
+                    "image": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1687,w_3000,x_0,y_158/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1585680414/GettyImages-96177798_gkdeqp"
+                }
+            ]
+        },
+        "San Angelo": {
+            "coordinate": [31.442778, -100.450278],
+            "incidents": [
+                {
+                    "date": "03/17/2020",
+                    "title": "Kim returned to his dorm to find a number of posters that informed what the symptoms were for COVID-19 taped to his door.",
+                    "source": "San Angelo Live",
+                    "link": "https://sanangelolive.com/news/crime/2020-04-03/report-coronavirus-poster-prank-led-armed-confrontation-dorm-room-angelo-state",
+                    "image": "https://sanangelolive.com/sites/default/files/one_1.jpg"
                 }
             ]
         }
@@ -722,6 +735,19 @@
                     "title": "Chinese community member was running on one of our beautiful trails when another woman, picked up a stick, hit her with it and told her \"go back to China.\"",
                     "source": "ABC 4",
                     "link": "https://www.abc4.com/coronavirus/xenophobic-behavior-on-the-rise-towards-asian-americans-in-utah-in-relation-to-covid-19-misinformation/"
+                }
+            ]
+        }
+    },
+    "Online": {
+        "Online": {
+            "incidents": [
+                {
+                    "date": "04/04/2020",
+                    "title": "#canceldanbilzerian and other celebs who defend the term \"Chinese Virus\"",
+                    "source": "Reddit",
+                    "link": "https://www.reddit.com/r/asianamerican/comments/fv7b2n/canceldanbilzerian_and_other_celebs_who_defend/",
+                    "image": "https://preview.redd.it/v1wya4n18xq41.jpg?width=640&crop=smart&auto=webp&s=8e7d6f1f71727cc52b07c37d39b2b3429fd36df3"
                 }
             ]
         }

@@ -33,6 +33,7 @@ export const Title = styled.div`
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 12px;
+    min-height: 50px;
 
     &:after {
         clear: both;
