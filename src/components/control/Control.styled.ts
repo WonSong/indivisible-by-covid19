@@ -43,7 +43,8 @@ export const BrandSub = styled.div`
 export const TagLine = styled.div`
     color: #999;
     font-size: 13px;
-    letter-spacing: 14px;
+    /* letter-spacing: 14px; */
+    letter-spacing: 2px;
 `;
 
 export const PulledDown = styled.div`

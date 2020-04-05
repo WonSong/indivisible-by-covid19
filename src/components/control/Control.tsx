@@ -10,10 +10,10 @@ export function Control(): React.ReactElement {
     return (
         <Styled.Root>
             <Section>
+                <Styled.TagLine>#STOPAAPIHATE</Styled.TagLine>
                 <Styled.Brand>
                     INDIVISIBLE <Styled.BrandSub>by COVID-19</Styled.BrandSub>
                 </Styled.Brand>
-                <Styled.TagLine>#STOPAAPIHATE</Styled.TagLine>
 
                 <ReportButton />
             </Section>
