@@ -518,7 +518,8 @@
                     "date": "03/25/2020",
                     "title": "A student at the University of Notre Dame posted racist, anti-Asian, anti-Chinese comments on their Facebook page. The student also wrote \"Go home\" on the Facebook page of an international student from China.",
                     "source": "The Observer",
-                    "link": "https://ndsmcobserver.com/2020/03/nd-postdoctoral-student-removed-from-program-after-posting-racist-comments/"
+                    "link": "https://ndsmcobserver.com/2020/03/nd-postdoctoral-student-removed-from-program-after-posting-racist-comments/",
+                    "image": "https://i2.wp.com/ndsmcobserver.com/wp-content/uploads/2020/03/1585337799-81bad062979843e.jpg?resize=278%2C700&ssl=1"
                 }
             ]
         },
@@ -530,6 +531,18 @@
                     "title": "Kao Lor and Lee Lor, both of Hmong descent, were traveling through Indiana and tried to get a room at a Super 8 Motel. The Super 8 employee asked Lor if he was Chinese. When Lor asked why he needed to know the employee responded, \"Because of the coronavirus going around. And anyone from China, I am told, has to be picked up and quarantined for two weeks.\"",
                     "source": "WBND",
                     "link": "https://www.abc57.com/news/asian-man-turned-away-from-michiana-hotels-due-to-coronavirus-concerns"
+                }
+            ]
+        },
+        "Martinsville": {
+            "coordinate": [39.427222, -86.427778],
+            "incidents": [
+                {
+                    "date": "03/31/2020",
+                    "title": "A doctor told \"Anyone of Chinese descent was not allowed in the store\" by a gas station clerk",
+                    "source": "WISHTV",
+                    "link": "https://www.abc57.com/nhttps://www.wishtv.com/news/multicultural-news/central-indiana-man-says-worker-kicked-him-out-of-gas-station-because-hes-asian/ews/asian-man-turned-away-from-michiana-hotels-due-to-coronavirus-concerns",
+                    "image": "https://cdn.statically.io/img/nextshark.com/wp-content/uploads/2020/04/doctor-770x409.jpg?quality=100"
                 }
             ]
         }

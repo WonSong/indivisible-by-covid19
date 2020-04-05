@@ -7,13 +7,19 @@ export function Incident(props: IIncidentProps): React.ReactElement {
 
     return (
         <Styled.Root href={incident.link} target="_blank">
+            <Styled.Info>
+                {incident.date} | {incident.cityName}
+            </Styled.Info>
             <Styled.Title>
                 {incident.image && <Styled.Image src={incident.image} />}
                 {incident.title}
             </Styled.Title>
-            <Styled.Info>
-                {incident.date} | {incident.source}
-            </Styled.Info>
+            <Styled.SourceRoot>
+                Source:{' '}
+                <Styled.Source href={incident.link} target="_blank">
+                    {incident.source}
+                </Styled.Source>
+            </Styled.SourceRoot>
         </Styled.Root>
     );
 }

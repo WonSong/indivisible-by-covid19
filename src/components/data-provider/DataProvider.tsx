@@ -1,13 +1,7 @@
 import * as React from 'react';
 import { IData, IIncident } from '../../models/IData';
 import { DataContext } from './DataContext';
-import {
-    IStateIncidentCount,
-    IDataContext,
-    ICitiesIncidentsByState,
-    ICitiesIncidents,
-    IIncidentCountByMonth,
-} from '../../models/IDataContext';
+import { IStateIncidentCount, IDataContext, IIncidentCountByMonth, IIncidentsByState } from '../../models/IDataContext';
 import { slugify } from '../../utils/slugify';
 
 function getIncidentCountbyMonth(incidents: IIncident[]): IIncidentCountByMonth {
@@ -27,13 +21,18 @@ function getIncidentCountbyMonth(incidents: IIncident[]): IIncidentCountByMonth 
 function prepData(data: IData): IDataContext {
     let totalIncidents = 0;
     const stateIncidentCounts: IStateIncidentCount[] = [];
-    const citiesIncidentsByState: ICitiesIncidentsByState = {};
+    const incidentsByState: IIncidentsByState = {};
     let incidents: IIncident[] = [];
 
     for (const stateName in data) {
         let stateIncidentCount = 0;
+        const slugifiedStateName = slugify(stateName);
+
         const stateData = data[stateName];
-        const stateCitiesData: ICitiesIncidents[] = [];
+        incidentsByState[slugifiedStateName] = {
+            stateName,
+            incidents: [],
+        };
 
         for (const cityName in stateData) {
             const cityData = stateData[cityName];
@@ -41,15 +40,15 @@ function prepData(data: IData): IDataContext {
             stateIncidentCount += cityData.incidents.length;
             totalIncidents += cityData.incidents.length;
 
-            const citiesIncidents: ICitiesIncidents = {
-                name: cityName,
-                count: cityData.incidents.length,
-                newCount: 0,
-                incidents: cityData.incidents,
-            };
-
-            stateCitiesData.push(citiesIncidents);
             incidents = incidents.concat(cityData.incidents);
+
+            cityData.incidents.forEach((incident: IIncident) => {
+                incidentsByState[slugifiedStateName].incidents.push({
+                    ...incident,
+                    cityName,
+                    cityCoordinate: cityData.coordinate,
+                });
+            });
         }
 
         stateIncidentCounts.push({
@@ -58,13 +57,7 @@ function prepData(data: IData): IDataContext {
             newCount: 0,
         });
 
-        stateCitiesData.sort((a, b) => (a.count > b.count ? -1 : 1));
-
-        citiesIncidentsByState[slugify(stateName)] = {
-            name: stateName,
-            count: stateIncidentCount,
-            cities: stateCitiesData,
-        };
+        incidentsByState[slugifiedStateName].incidents.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
     }
 
     stateIncidentCounts.sort((a, b) => (a.count > b.count ? -1 : 1));
@@ -74,8 +67,8 @@ function prepData(data: IData): IDataContext {
         isLoading: false,
         totalIncidents,
         stateIncidentCounts,
-        citiesIncidentsByState,
         incidentCountByMonth: getIncidentCountbyMonth(incidents),
+        incidentsByState,
     };
 }
 
@@ -85,8 +78,8 @@ export function DataProvider(props: React.PropsWithChildren<{}>): React.ReactEle
         isLoading: true,
         totalIncidents: 0,
         stateIncidentCounts: [],
-        citiesIncidentsByState: {},
         incidentCountByMonth: {},
+        incidentsByState: {},
     });
 
     React.useEffect(() => {

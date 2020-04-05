@@ -26,7 +26,7 @@ export function UnitedStates(): React.ReactElement {
                     <TrendChart />
                 </Section>
 
-                <Heading2>By state</Heading2>
+                <Heading2>States</Heading2>
                 <States />
             </Content>
         </>

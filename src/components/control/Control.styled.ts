@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import { Color } from '../../resources/constants';
 
 export const Root = styled.div`
     background-color: white;
@@ -64,12 +65,22 @@ export const SiteInfo = styled.div`
 
 export const InlineLink = styled(Link)`
     font-weight: 600;
+    color: ${Color.LinkColor};
+    transition: color 0.1s linear;
     text-decoration: none;
-    color: #36a2eb;
+
+    &:hover {
+        color: ${Color.LinkColorEvenDarker};
+    }
 `;
 
 export const InlineExternalLink = styled.a`
     font-weight: 600;
+    color: ${Color.LinkColor};
     text-decoration: none;
-    color: #36a2eb;
+    transition: color 0.1s linear;
+
+    &:hover {
+        color: ${Color.LinkColorEvenDarker};
+    }
 `;

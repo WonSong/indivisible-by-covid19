@@ -18,4 +18,5 @@ export interface IIncident {
     title: string;
     source: string;
     link: string;
+    image?: string;
 }

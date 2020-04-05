@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Color } from '../../../../resources/constants';
 
 export const Root = styled.a`
     display: block;
@@ -13,10 +14,10 @@ export const Root = styled.a`
     cursor: pointer;
     text-decoration: none;
     background-color: #f2f2f2;
+    transition: box-shadow 0.1s linear, color 0.1s linear;
 
     &:hover {
-        border: 2px solid #36a2eb;
-        padding: 15px 11px;
+        box-shadow: 0 1px 1px 0 rgba(60, 64, 67, 0.08), 0 1px 3px 1px rgba(60, 64, 67, 0.16);
     }
 `;
 
@@ -28,7 +29,7 @@ export const Image = styled.img`
     border-radius: 5px;
 `;
 
-export const Title = styled.p`
+export const Title = styled.div`
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 12px;
@@ -38,7 +39,25 @@ export const Title = styled.p`
     }
 `;
 
-export const Info = styled.p`
+export const Info = styled.div`
     font-size: 12px;
-    color: #999;
+    color: #777;
+    margin-bottom: 12px;
+`;
+
+export const SourceRoot = styled.div`
+    font-size: 13px;
+    color: #777;
+    font-weight: 600;
+`;
+
+export const Source = styled.a`
+    color: ${Color.LinkColor};
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.1s linear;
+
+    &:hover {
+        color: ${Color.LinkColorEvenDarker};
+    }
 `;

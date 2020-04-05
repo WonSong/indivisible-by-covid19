@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Color } from '../../../resources/constants';
 
 export const Root = styled.a`
     display: block;
@@ -14,6 +15,11 @@ export const Root = styled.a`
     color: white;
     cursor: pointer;
     text-decoration: none;
-    background-color: rgb(255, 23, 72);
+    background-color: ${Color.PrimaryColor};
     box-shadow: 0 1px 1px 0 rgba(60, 64, 67, 0.08), 0 1px 3px 1px rgba(60, 64, 67, 0.16);
+    transition: background-color 0.1s linear;
+
+    &:hover {
+        background-color: ${Color.PrimaryColorLighter};
+    }
 `;

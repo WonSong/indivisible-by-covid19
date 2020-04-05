@@ -4,7 +4,7 @@ import * as Styled from './Map.styled';
 import { useMap } from './useMap';
 
 export const LatLng = {
-    'new-york': [43, -74],
+    'new-york': [43, -75],
     washington: [47.5, -121.5],
     california: [37, -120],
     'new-mexico': [34, -106],

@@ -1,23 +1,24 @@
 import styled from 'styled-components';
+import { Color } from '../../../../resources/constants';
 
 export const Root = styled.button`
     display: block;
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.05);
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-    padding: 8px 12px;
+    padding: 10px 6px 10px 12px;
     border-radius: 3px;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 15px;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
     color: #555;
     cursor: pointer;
     text-decoration: none;
     background-color: #f2f2f2;
+    transition: box-shadow 0.1s linear, color 0.1s linear;
 
     &:hover {
-        border: 2px solid #36a2eb;
-        padding: 7px 11px;
+        box-shadow: 0 1px 1px 0 rgba(60, 64, 67, 0.08), 0 1px 3px 1px rgba(60, 64, 67, 0.16);
     }
 
     &:after {
@@ -28,18 +29,17 @@ export const Root = styled.button`
 export const Text = styled.div`
     float: left;
     font-weight: 600;
+    color: ${Color.LinkColor};
+    transition: color 0.1s linear;
+
+    &:hover {
+        color: ${Color.LinkColorEvenDarker};
+    }
 `;
 
 export const Count = styled.div`
     float: right;
-    color: #666;
     margin-left: 12px;
-`;
-
-export const Icon = styled.img`
-    float: right;
-    width: 10px;
-    height: 10px;
-    margin-top: 2px;
-    margin-left: 6px;
+    margin-right: 6px;
+    font-size: 14px;
 `;

@@ -2,10 +2,14 @@ import * as React from 'react';
 import * as Chart from 'chart.js';
 import * as Styled from './TrendChart.styled';
 import { DataContext } from '../../data-provider/DataContext';
+import { Color } from '../../../resources/constants';
+
+const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
 
 export function TrendChart(): React.ReactElement {
     const ref = React.useRef(null);
     const { incidentCountByMonth, isLoading } = React.useContext(DataContext);
+    const currentMonthIndex = new Date().getMonth();
 
     React.useEffect(() => {
         if (!ref.current) return;
@@ -18,16 +22,15 @@ export function TrendChart(): React.ReactElement {
             new Chart(context, {
                 type: 'line',
                 data: {
-                    //labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'],
-                    labels: ['Jan', 'Feb', 'Mar', 'Apr'],
+                    labels: months.slice(0, currentMonthIndex),
                     datasets: [
                         {
                             label: '',
                             data,
                             backgroundColor: 'transparent',
-                            borderColor: 'rgb(255, 23, 72)',
+                            borderColor: Color.PrimaryColor,
                             borderWidth: 1,
-                            pointBackgroundColor: 'rgb(255, 23, 72)',
+                            pointBackgroundColor: Color.PrimaryColor,
                         },
                     ],
                 },

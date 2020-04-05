@@ -1,5 +1,5 @@
-import { IIncident } from '../../../../models/IData';
+import { IStateIncident } from '../../../../models/IDataContext';
 
 export interface IIncidentProps {
-    incident: IIncident;
+    incident: IStateIncident;
 }

@@ -15,7 +15,6 @@ export function StateButton(props: IStateButtonProps): React.ReactElement {
     return (
         <Styled.Root onClick={handleClicked}>
             <Styled.Text>{name}</Styled.Text>
-            <Styled.Icon src="/static/chevron-right.svg" />
             <Styled.Count>{count}</Styled.Count>
         </Styled.Root>
     );

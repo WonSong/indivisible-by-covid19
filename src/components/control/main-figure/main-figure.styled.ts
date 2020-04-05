@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Color } from '../../../resources/constants';
 
 export const Root = styled.div`
     margin-bottom: 24px;
@@ -8,7 +9,7 @@ export const Root = styled.div`
 export const MainFigure = styled.div`
     font-size: 42px;
     line-height: 46px;
-    color: rgb(255, 23, 72);
+    color: ${Color.PrimaryColor};
 `;
 
 export const Description = styled.div`
