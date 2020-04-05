@@ -1,4 +1,3 @@
-import styled from 'styled-components';
 import { Color } from '../../../resources/constants';
 
 export const LoadMoreButton = styled.button`

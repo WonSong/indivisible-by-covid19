@@ -5,9 +5,11 @@ import { Content } from '../Content';
 import { Heading, Heading2 } from '../../heading';
 import { SectionContent, Section } from '../../section';
 import { ExternalLink } from '../../link';
+import { useTrackPage } from '../../../hooks/useTrackPage';
 
 export function About(): React.ReactElement | null {
     useDarkerBackgroundOnScroll();
+    useTrackPage('About');
 
     return (
         <>

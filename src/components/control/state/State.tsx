@@ -8,9 +8,11 @@ import { MainFigure } from '../main-figure';
 import { Content } from '../Content';
 import { IncidentList } from '../incident-list';
 import { BackButton } from '../back-button';
+import { useTrackPage } from '../../../hooks/useTrackPage';
 
 export function State(): React.ReactElement | null {
     useDarkerBackgroundOnScroll();
+    useTrackPage('State');
 
     const { replace } = useHistory();
     const { state } = useParams();

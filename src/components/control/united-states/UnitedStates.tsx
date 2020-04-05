@@ -8,9 +8,11 @@ import { MainFigure } from '../main-figure';
 import { TrendChart } from '../trend-chart';
 import { Content } from '../Content';
 import { IncidentList } from '../incident-list';
+import { useTrackPage } from '../../../hooks/useTrackPage';
 
 export function UnitedStates(): React.ReactElement {
     useDarkerBackgroundOnScroll();
+    useTrackPage('Home');
 
     const { totalIncidents, isLoading, incidents } = React.useContext(DataContext);
 

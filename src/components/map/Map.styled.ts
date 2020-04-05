@@ -1,5 +1,3 @@
-import styled from 'styled-components';
-
 export const Root = styled.div`
     position: fixed !important;
     top: 0;

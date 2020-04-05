@@ -3,7 +3,6 @@ const path = require('path');
 module.exports = {
     target: 'web',
     mode: 'development',
-    devtool: 'source-map',
     entry: {
         app: './src/App.tsx',
     },
@@ -21,6 +20,14 @@ module.exports = {
                 },
             },
         ],
+    },
+    externals: {
+        react: 'React',
+        'react-dom': 'ReactDOM',
+        'react-is': 'ReactIs',
+        'react-router-dom': 'ReactRouterDOM',
+        'styled-components': 'styled',
+        'chart.js': 'Chart',
     },
     resolve: {
         extensions: ['.ts', '.tsx', '.js'],

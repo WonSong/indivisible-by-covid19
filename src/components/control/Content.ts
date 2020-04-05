@@ -1,4 +1,4 @@
-import styled, { css, FlattenSimpleInterpolation } from 'styled-components';
+import { css, FlattenSimpleInterpolation } from 'styled-components';
 
 export const Content = styled.div<{ margin?: number }>`
     margin-left: -16px;

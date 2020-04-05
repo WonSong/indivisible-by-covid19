@@ -12,6 +12,7 @@
     "author": "Won Song <hello@wonsong.me>",
     "license": "MIT",
     "dependencies": {
+        "@microsoft/applicationinsights-web": "^2.5.3",
         "chart.js": "^2.9.3",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",

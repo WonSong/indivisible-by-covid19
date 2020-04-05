@@ -1,4 +1,3 @@
-import styled from 'styled-components';
 import { Color } from '../../../resources/constants';
 import { Link } from '../../link';
 
