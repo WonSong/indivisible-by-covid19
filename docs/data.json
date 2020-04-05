@@ -154,6 +154,18 @@
                     "image": "https://s3.us-east-1.wasabisys.com/kion546.com/2020/04/china-did-this-860x484.jpg"
                 }
             ]
+        },
+        "Burbank": {
+            "coordinate": [34.180278, -118.328333],
+            "incidents": [
+                {
+                    "date": "04/01/2020",
+                    "title": "A motorcyclist pulls up perpendicularly directly at the car, and revving his engine threatening to ram his bike into Ma's driver side door, threatening with racial slurs",
+                    "source": "NextShark",
+                    "link": "https://nextshark.com/jaeson-ma-asian-hate-crime/",
+                    "image": "https://cdn.statically.io/img/nextshark.com/wp-content/uploads/2020/04/91345094_874026223021477_2070125600462340096_n.jpg?quality=100"
+                }
+            ]
         }
     },
     "Colorado": {
