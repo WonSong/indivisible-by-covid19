@@ -325,9 +325,16 @@
         }
     },
     "New York": {
-        "Brooklyn": {
-            "coordinate": [40.624722, -73.952222],
+        "New York City": {
+            "coordinate": [40.712776, -74.005974],
             "incidents": [
+                {
+                    "date": "04/02/2020",
+                    "title": "A man in a Williamsburg grocery store blaming an elderly Chinese lady for the \"Chinese virus\"",
+                    "source": "Twitter",
+                    "link": "https://twitter.com/DanitGal/status/1245897248879321093?s=20",
+                    "image": "https://pbs.twimg.com/profile_images/905070302476083200/XmGbqJee_400x400.jpg"
+                },
                 {
                     "date": "03/25/2020",
                     "title": "In a subway station, someone spat on an Asian man and yelled, \"You fucking Chinese, spreading the coronavirus. You people got the virus.\"",
@@ -352,40 +359,26 @@
                     "title": "Video shows a man on the subway arguing with a fellow passenger, who is Asian, and then spraying Febreze air freshener on the Asian passenger.",
                     "source": "ABC-NY",
                     "link": "https://abc7ny.com/coronavirus-fear-video-shows-suspected-hate-crime-on-subway/5989856/"
-                }
-            ]
-        },
-        "Bronx": {
-            "coordinate": [40.844784, -73.86483],
-            "incidents": [
+                },
                 {
-                    "date": "03/29/2020",
-                    "title": "Three teenage girls harassed and used an umbrella to attack an Asian woman, saying, “You caused coronavirus, bitch.",
-                    "source": "New York Post",
-                    "link": "https://nypost.com/2020/03/29/hate-spewing-teens-yell-you-caused-coronavirus-b-h-at-asian-woman/"
-                }
-            ]
-        },
-        "Queens": {
-            "coordinate": [40.75, -73.866667],
-            "incidents": [
-                {
-                    "date": "03/12/2020",
-                    "title": "Police arrested Raoul Ramos and charged him with aggravated harassment as a hate crime after he allegedly harassed and pushed a 47-year-old Asian man who was walking with his 10-year-old son in the Forest Hills neighborhood. Ramos approached the pair and started screaming, \"Where the [expletive] is your mask?\" He also referred to them as \"You fucking Chinese.\"",
-                    "source": "New York Post",
-                    "link": "https://nypost.com/2020/03/14/cops-bust-suspect-in-coronavirus-related-hate-crime-on-asian-man/"
-                }
-            ]
-        },
-        "New York": {
-            "coordinate": [40.712776, -74.005974],
-            "incidents": [
+                    "date": "04/02/2020",
+                    "title": "Lin was called coronavirus in his face.",
+                    "source": "Twitter",
+                    "link": "https://twitter.com/tony_zy/status/1245797582695206916?s=20",
+                    "image": "https://pbs.twimg.com/profile_images/1230250385350197248/4FEge8HM_400x400.jpg"
+                },
                 {
                     "date": "04/01/2020",
                     "title": "An Instagram user threatens to shoot at every Asian he meets in Chinatown",
                     "source": "Twitter",
                     "link": "https://twitter.com/CeFaanKim/status/1245416385536241664",
                     "image": "https://pbs.twimg.com/media/EUibmWFX0AEVbFl?format=jpg&name=large"
+                },
+                {
+                    "date": "03/29/2020",
+                    "title": "Three teenage girls harassed and used an umbrella to attack an Asian woman, saying, “You caused coronavirus, bitch.",
+                    "source": "New York Post",
+                    "link": "https://nypost.com/2020/03/29/hate-spewing-teens-yell-you-caused-coronavirus-b-h-at-asian-woman/"
                 },
                 {
                     "date": "03/28/2020",
@@ -420,6 +413,12 @@
                     "source": "Patch",
                     "link": "https://patch.com/new-york/new-york-city/die-coronavirus-says-spitting-penn-station-assailant",
                     "image": "https://patch.com/img/cdn20/users/22926829/20200312/041940/styles/patch_image/public/newyork-tl-0177___12161432592.jpg?width=725"
+                },
+                {
+                    "date": "03/12/2020",
+                    "title": "Police arrested Raoul Ramos and charged him with aggravated harassment as a hate crime after he allegedly harassed and pushed a 47-year-old Asian man who was walking with his 10-year-old son in the Forest Hills neighborhood. Ramos approached the pair and started screaming, \"Where the [expletive] is your mask?\" He also referred to them as \"You fucking Chinese.\"",
+                    "source": "New York Post",
+                    "link": "https://nypost.com/2020/03/14/cops-bust-suspect-in-coronavirus-related-hate-crime-on-asian-man/"
                 },
                 {
                     "date": "03/10/2020",
@@ -492,9 +491,28 @@
         }
     },
     "Illinois": {
+        "Aurora": {
+            "coordinate": [41.763889, -88.29],
+            "incidents": [
+                {
+                    "date": "04/02/2020",
+                    "title": "Jeff from Lowe's took gave Yang a disgusted look when Yang asked him for a help",
+                    "source": "Twitter",
+                    "link": "https://twitter.com/koobxwm/status/1245902357420036102?s=21",
+                    "image": "https://pbs.twimg.com/media/EUpVejxXsAIKDN8?format=jpg&name=medium"
+                }
+            ]
+        },
         "Chicago": {
             "coordinate": [41.881944, -87.627778],
             "incidents": [
+                {
+                    "date": "04/05/2020",
+                    "title": "A man yelled at Lin that \"her kind\" caused the pandemic and that she should \"get out and go back to China\"",
+                    "source": "Twitter",
+                    "link": "https://twitter.com/jenniejlin/status/1246826230072193027?s=20",
+                    "image": "https://pbs.twimg.com/profile_images/1243628237076471812/xmrz38nP_400x400.jpg"
+                },
                 {
                     "date": "03/12/2020",
                     "title": "A man walking by yelled \"Fucking China\" and spat on Nguyen",
@@ -766,6 +784,12 @@
                     "source": "Reddit",
                     "link": "https://www.reddit.com/r/asianamerican/comments/fv7b2n/canceldanbilzerian_and_other_celebs_who_defend/",
                     "image": "https://preview.redd.it/v1wya4n18xq41.jpg?width=640&crop=smart&auto=webp&s=8e7d6f1f71727cc52b07c37d39b2b3429fd36df3"
+                },
+                {
+                    "date": "04/04/2020",
+                    "title": "A twitter user stated, as a white person he's glad he only have to die of the Chinese virus",
+                    "source": "Twitter",
+                    "link": "https://twitter.com/profunc/status/1246397248008790016?s=20"
                 }
             ]
         }
