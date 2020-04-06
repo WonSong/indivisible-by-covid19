@@ -8,7 +8,8 @@ export function Incident(props: IIncidentProps): React.ReactElement {
     return (
         <Styled.Root href={incident.link} target="_blank">
             <Styled.Info>
-                {incident.date} | {incident.cityName}
+                {incident.date} {`${incident.isDateEstimate ? '(approx.)' : ''}`} |{' '}
+                {incident.cityName}
             </Styled.Info>
             <Styled.Title>
                 {incident.image && <Styled.Image src={incident.image} />}

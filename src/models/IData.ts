@@ -19,4 +19,5 @@ export interface IIncident {
     source: string;
     link: string;
     image?: string;
+    isDateEstimate?: boolean;
 }
