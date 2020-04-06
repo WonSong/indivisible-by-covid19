@@ -832,11 +832,28 @@
                     "title": "A twitter user stated, as a white person he's glad he only have to die of the Chinese virus",
                     "source": "Twitter",
                     "link": "https://twitter.com/profunc/status/1246397248008790016?s=20"
+                },
+                {
+                    "date": "04/03/2020",
+                    "title": "Multiple cyberbullying of Asians, \"Whoever said one person can't change the world never ate an undercooked bat\"",
+                    "source": "NextShark",
+                    "link": "https://nextshark.com/cyberbullying-asians-up-by-900/",
+                    "image": "https://cdn.statically.io/img/nextshark.com/wp-content/uploads/2020/04/TWEETS-770x409.png?quality=100",
+                    "isDateEstimate": true
                 }
             ]
         },
         "Unknown Location": {
-            "incidents": []
+            "incidents": [
+                {
+                    "date": "04/05/2020",
+                    "title": "A veteran wears a mask written \"Thanks Chinks\"",
+                    "source": "Twitter",
+                    "link": "https://twitter.com/TLCplMax/status/1246867287136546817?s=20",
+                    "image": "https://pbs.twimg.com/media/EU3DL_2U0AA1GFq?format=jpg&name=small",
+                    "isDateEstimate": true
+                }
+            ]
         }
     }
 }
