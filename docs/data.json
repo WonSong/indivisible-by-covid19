@@ -198,6 +198,17 @@
                     "image": "https://cdn.statically.io/img/nextshark.com/wp-content/uploads/2020/04/allisonskidmore-770x409.jpg?quality=100"
                 }
             ]
+        },
+        "Sunnyvale": {
+            "coordinate": [37.371111, -122.0375],
+            "incidents": [
+                {
+                    "date": "04/05/2020",
+                    "title": "A twitter user claims that multiple customers verbally assualted Asian customers at Target",
+                    "source": "Twitter",
+                    "link": "https://twitter.com/popoliil898/status/1246952691609169920?s=20"
+                }
+            ]
         }
     },
     "Colorado": {
