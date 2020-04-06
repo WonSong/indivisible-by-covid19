@@ -478,7 +478,13 @@
                     "image": "https://media.newyorker.com/photos/5e6f7fe925cee1000833da1a/master/w_2560%2Cc_limit/Park-AntiAsian.jpg"
                 },
                 {
-                    "date": "03/7/2020",
+                    "date": "03/08/2020",
+                    "title": "Li Qianyang was stabbed 13 times by an unknown man. Li Qianyang is in critical condition at the Lutheran Medical Center. Police, however, said that \"there was 'absolutely no nexus between the attack and the coronavirus'\"",
+                    "source": "New York Post",
+                    "link": "https://nypost.com/2020/03/08/asian-man-stabbed-in-suspected-coronavirus-related-hate-crime/"
+                },
+                {
+                    "date": "03/07/2020",
                     "title": "A 13-year-old boy spat at a 59-year-old Asian man and allegedly saying Chinese people have COVID-19. The same boy attacked the same man again on March 10 in a similar incident.",
                     "source": "CBS-NY",
                     "link": "https://newyork.cbslocal.com/2020/03/12/coronavirus-anti-asian-hate-crime/"
@@ -550,6 +556,13 @@
                     "source": "Twitter",
                     "link": "https://twitter.com/jenniejlin/status/1246826230072193027?s=20",
                     "image": "https://pbs.twimg.com/profile_images/1243628237076471812/xmrz38nP_400x400.jpg"
+                },
+                {
+                    "date": "03/31/2020",
+                    "title": "Mabel Menard was assaulted by a drunk man in an Old Town Tavern in Chicago, IL, who asked, \"Do you have the corona?\"",
+                    "source": "Chicago Tribune",
+                    "link": "https://www.chicagotribune.com/news/breaking/ct-chicago-asians-coronavirus-racism-trump-chinese-virus-20200325-pmgtixfldrdabcqwvmsb6gokra-story.html?fbclid=IwAR3a_SugUPyrdAzSMxH1Uv6jd1_xsp9VTmbgS5blPxHLpSv5ZeklUv8f344",
+                    "isDateEstimate": true
                 },
                 {
                     "date": "03/12/2020",
@@ -851,6 +864,44 @@
                     "link": "https://nextshark.com/cyberbullying-asians-up-by-900/",
                     "image": "https://cdn.statically.io/img/nextshark.com/wp-content/uploads/2020/04/TWEETS-770x409.png?quality=100",
                     "isDateEstimate": true
+                },
+                {
+                    "date": "03/24/2020",
+                    "title": "Published a letter that calls the virus the \"Wuhan Coronavirus\" and accuses \"Chinese-led hysteria [of roiling] markets and [disrupting] everyday life for Americans and citizens of other countries around the world.\"",
+                    "source": "SPLC",
+                    "link": "https://www.splcenter.org/hatewatch/2020/03/24/hate-group-leaders-antigovernment-extremists-push-anti-china-coronavirus-rhetoric"
+                },
+                {
+                    "date": "03/17/2020",
+                    "title": "President Trump calls the coronavirus the \"Chinesevirus\"",
+                    "source": "Twitter",
+                    "link": "https://twitter.com/CAPAction/status/1240324315603763200"
+                },
+                {
+                    "date": "03/11/2020",
+                    "title": "\"SB Dennis\" posted a video of himself walking up to a Chinese restaurant and ordering \"baby back rat with a side of cats\".",
+                    "source": "Facebook",
+                    "link": "https://www.facebook.com/matthew.nguyenngo/posts/10220156242790735",
+                    "image": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/90012159_10220156205069792_4322376501677785088_n.jpg?_nc_cat=100&_nc_sid=110474&_nc_oc=AQkjeXAXwV20Pv2GkOIWlkFQUZrOMfn_-H7VtcaQC-DPpIMB4GT6Hyk_a2QYHclHfwc8MHcqFTzkh-goLr4PzS0S&_nc_ht=scontent-sea1-1.xx&oh=7dde4f03f8a5b31e9db208b51f2f1a79&oe=5EAE94F4"
+                },
+                {
+                    "date": "03/09/2020",
+                    "title": "GOP Leader Kevin McCarthy posted a tweet that called the coronavirus \"Chinese\"",
+                    "source": "Twitter",
+                    "link": "https://twitter.com/GOPLeader/status/1237165063565447168?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1237165063565447168&ref_url=https%3A%2F%2Fnextshark.com%2Fcoronavirus-racism-260-groups-congress-fight%2F"
+                },
+                {
+                    "date": "03/04/2020",
+                    "title": "Assemblywoman Mathylde Frontus’s receptionist, Mailyn Franks, falsely posted on Facebook, \"urging citizens to stay away from Chinese supermarkets, shops, fast food outlets, restaurants, and businesses.\" She was later fired.",
+                    "source": "NY Daily News",
+                    "link": "https://www.nydailynews.com/news/politics/ny-coronavirus-xenophobia-william-colton-ronald-stewart-eric-adams-20200304-46wrwvf7rbg7nbapraxm7zq4ki-story.html",
+                    "image": "https://www.nydailynews.com/resizer/7JRbScaaBJC5WRXJlfBcEmXTQcM=/800x490/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/7GGGLT4H3FHN7GBWKCSGZEP6DU.jpg"
+                },
+                {
+                    "date": "02/17/2020",
+                    "title": "Senator Tom Cotton claimed that Covid-19 is a Chinese bioweapon.",
+                    "source": "New York Times",
+                    "link": "https://www.nytimes.com/2020/02/17/business/media/coronavirus-tom-cotton-china.html"
                 }
             ]
         },
@@ -863,6 +914,13 @@
                     "link": "https://twitter.com/TLCplMax/status/1246867287136546817?s=20",
                     "image": "https://pbs.twimg.com/media/EU3DL_2U0AA1GFq?format=jpg&name=small",
                     "isDateEstimate": true
+                },
+                {
+                    "date": "03/11/2020",
+                    "title": "An 8 year old Vietnamese boy was bullied by a classmate, at his school in Southern California, into thinking he had coronavirus and was going to die.",
+                    "source": "Slate",
+                    "link": "https://slate.com/human-interest/2020/03/coronavirus-bullying-school.html",
+                    "image": "https://compote.slate.com/images/7f9b20de-97a3-4e21-bbc6-71e4e8d06502.jpeg?width=780&height=520&rect=1560x1040&offset=0x0"
                 }
             ]
         }
