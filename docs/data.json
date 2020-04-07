@@ -848,6 +848,20 @@
             ]
         }
     },
+    "Arkansas": {
+        "Fort Smith": {
+            "coordinate": [35.368611, -94.398611],
+            "incidents": [
+                {
+                    "date": "04/05/2020",
+                    "title": "Mann uses hammer to destroy sacred statues at Lao Temple",
+                    "source": "5 News Online",
+                    "link": "https://www.5newsonline.com/article/news/local/man-uses-hammer-to-destroy-sacred-statues-at-lao-temple-in-fort-smith/527-1c74d23b-34a7-451b-864a-fbed0bdd6930",
+                    "image": "https://media.tegna-media.com/assets/KFSM/images/e9d6daac-c5ec-4d85-a42f-fe592df2d1b6/e9d6daac-c5ec-4d85-a42f-fe592df2d1b6_1920x1080.jpeg"
+                }
+            ]
+        }
+    },
     "Online": {
         "Online": {
             "incidents": [

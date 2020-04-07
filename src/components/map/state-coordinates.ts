@@ -16,4 +16,5 @@ export const stateCoordinates = {
     'new-jersey': [40, -74.5],
     nevada: [39, -117],
     utah: [39, -111],
+    arkansas: [34.8, -92.2],
 };

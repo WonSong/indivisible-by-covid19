@@ -2026,7 +2026,7 @@ eval("\nfunction __export(m) {\n    for (var p in m) if (!exports.hasOwnProperty
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.stateCoordinates = {\n    'new-york': [43, -75],\n    washington: [47.5, -121.5],\n    california: [37, -120],\n    'new-mexico': [34, -106],\n    illinois: [40, -89],\n    florida: [27.1, -81.6],\n    'washington-dc': [38.904722, -77.016389],\n    wisconsin: [44.5, -89.5],\n    texas: [31, -100],\n    indiana: [40, -86],\n    minnesota: [46, -94],\n    colorado: [39, -105.5],\n    virginia: [38, -79],\n    pennsylvania: [41, -77.5],\n    'new-jersey': [40, -74.5],\n    nevada: [39, -117],\n    utah: [39, -111],\n};\n\n\n//# sourceURL=webpack:///./src/components/map/state-coordinates.ts?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.stateCoordinates = {\n    'new-york': [43, -75],\n    washington: [47.5, -121.5],\n    california: [37, -120],\n    'new-mexico': [34, -106],\n    illinois: [40, -89],\n    florida: [27.1, -81.6],\n    'washington-dc': [38.904722, -77.016389],\n    wisconsin: [44.5, -89.5],\n    texas: [31, -100],\n    indiana: [40, -86],\n    minnesota: [46, -94],\n    colorado: [39, -105.5],\n    virginia: [38, -79],\n    pennsylvania: [41, -77.5],\n    'new-jersey': [40, -74.5],\n    nevada: [39, -117],\n    utah: [39, -111],\n    arkansas: [34.8, -92.2],\n};\n\n\n//# sourceURL=webpack:///./src/components/map/state-coordinates.ts?");
 
 /***/ }),
 
